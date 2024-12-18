@@ -2,21 +2,20 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Robin Bretin
     - name: Date of Birth
-      value: 14th March 1879
+      value: 15th November 1997
     - name: Languages
-      value: English, German
+      value: French, English, Spanish, German
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Glasgow, Glasgow, United Kingdom
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
+        - “Beyond Boundaries<:> Unveiling Human-Drone Proxemic Dynamics Using Virtual Reality” Supervised by Dr Mohamed Khamis and Prof. Emily Cross. Conducting in-person user studies using virtual reality to understand Human-Drone proxemics and inform Social Drone design. 
         - title: Description 3.
           contents:
             - Sub-description 1.
@@ -27,11 +26,17 @@
       description:
         - Description 1.
         - Description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
+      description:
+        - Description 1.
+        - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
+    - title: Presenter
       institution: Institute for Advanced Study, Princeton University
       year: 1933 - 1955
       description:
@@ -61,37 +66,34 @@
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
 
-- title: Open Source Projects
+- title: Thesis Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/RobinBretin/ThesisProjects">Thesis Resources</a>
+      year: 2020-2024
+      description: A curated collection of resources (3D models, Unity projects, and scripts) utilized throughout my thesis work.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - IFIP TC13 Pioneers' Award for Best Doctoral Student Paper
+        - INTERACT 2023 Best Paper Reviewers' Choice Award
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Human-Drone Interactions
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Autonomous and Social Drones
+        - Human-Drone Proxemics
+    - title: Extended Reality (XR)
       items:
-        - Description 1.
-        - Description 2.
+        - XR Applications in Research
+        - Exploring Proxemics through XR
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Self-taught musician (guitar, piano, and flute), cinephile, gamer, chess enthusiast, avid reader (genres include dystopia and fantasy), sports enthusiast (almost all disciplines), and a variety of other passions.

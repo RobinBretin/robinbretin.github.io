@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-12-10 00:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Passed my Viva with Minor Corrections! :sparkles: :smile: Many thanks my examiners <a href="https://people.bordeaux.inria.fr/abrock/">Anke Brock</a> and <a href="https://www.maryellenfoster.uk/research">Mary-Ellen Foster</a>.  
