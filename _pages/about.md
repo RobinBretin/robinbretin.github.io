@@ -18,11 +18,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
   
-  > 📌 **Current Status:** Looking for a Post Doctoral position in Europe, . Feel free to contact me!</p>
-  
-    ---
-    📌 **Current Status:** Looking for a Post Doctoral position in Europe, . Feel free to contact me!</p>
-    ---
+  > 📌 **Current Status:** Looking for a Post Doctoral position in Europe, on Human-Robot Interactions, or Extended Reality. Feel free to contact me and check my <a href="https://robinbretin.github.io/cv">CV</a>!
 
 
 <p>I’m a curious researcher with a passion for learning and exploring. My Thesis focused on how people use space around autonomous drones (Proxemics) and explored the use of XR (Extended Reality) as a tool in this field. Recognizing the lack of a theoretical foundation, I developed a model informed by existing proxemic theories, supported by empirical findings collected through user studies. Alongside this, I created guidelines and shared resources to help researchers effectively employ XR in human-drone proxemic studies.</p>
