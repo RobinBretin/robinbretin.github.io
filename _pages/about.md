@@ -17,8 +17,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
+  
+  > 📌 **Current Status:** Looking for a Post Doctoral position in Europe, . Feel free to contact me!</p>
+  
+    ---
+    📌 **Current Status:** Looking for a Post Doctoral position in Europe, . Feel free to contact me!</p>
+    ---
 
-<p>📌<strong>Current Status:</strong> Looking for a Post Doctoral position in Europe, . Feel free to contact me!</p>
 
 <p>I’m a curious researcher with a passion for learning and exploring. My Thesis focused on how people use space around autonomous drones (Proxemics) and explored the use of XR (Extended Reality) as a tool in this field. Recognizing the lack of a theoretical foundation, I developed a model informed by existing proxemic theories, supported by empirical findings collected through user studies. Alongside this, I created guidelines and shared resources to help researchers effectively employ XR in human-drone proxemic studies.</p>
 <p>The knowledge and skills I gained throughout my work have also allowed me to collaborate on a variety of exciting projects, from child safety in social VR and authentication techniques for ATMs to enhancing social robot interactions.</p>
