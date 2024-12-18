@@ -1,22 +1,22 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Robin Bretin",
+    "label": "HCI/HRI Researcher",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "r.bretin.1@research.gla.ac.uk",
+    "phone": "",
+    "url": "https://robinbretin.github.io/",
+    "summary": "A French-born, curiosity-driven individual whose nature led them to become a researcher.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "French",
+      "region": ""
     },
     "profiles": [
       {
-        "network": "Twitter",
+        "network": "Linkedin",
         "username": "AlbertEinstein",
         "url": "https://twitter.com/AlbertEinstein"
       }
@@ -151,13 +151,23 @@
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "French",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
       "language": "English",
       "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Spanish",
+      "fluency": "B1",
+      "icon": ""
+    },
+    {
+      "language": "German",
+      "fluency": "In progress",
       "icon": ""
     }
   ],
