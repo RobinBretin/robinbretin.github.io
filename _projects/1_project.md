@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: Beyond Boundaries, Unveiling Human-Drone Proxemic Dynamics Using Virtual Reality
 description: with background image
 img: assets/img/12.jpg
 importance: 1
