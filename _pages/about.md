@@ -8,9 +8,7 @@ profile:
   align: right
   image: moi.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>r.bretin.1@research.gla.ac.uk</p>
-    <p>France</p>
+  more_info:
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -21,8 +19,8 @@ social: true # includes social icons at the bottom of the page
   > 📌 **Current Status:** Looking for a Post Doctoral position in Europe, on Human-Robot Interactions, or Extended Reality. Feel free to contact me and check my <a href="https://robinbretin.github.io/cv">CV</a>!
 
 
-<p>I’m a curious researcher with a passion for learning and exploring. My Thesis focused on how people use space around autonomous drones (Proxemics) and explored the use of XR (Extended Reality) as a tool in this field. Recognizing the lack of a theoretical foundation, I developed a model informed by existing proxemic theories, supported by empirical findings collected through user studies. Alongside this, I created guidelines and shared resources to help researchers effectively employ XR in human-drone proxemic studies.</p>
-<p>The knowledge and skills I gained throughout my work have also allowed me to collaborate on a variety of exciting projects, from child safety in social VR and authentication techniques for ATMs to enhancing social robot interactions.</p>
+<p>With a background in both computer science and applied cognitive psychology, I am a versatile 'Swiss army knife' researcher, equally at ease with technical and theoretical work in Human-Robot and Human-Computer Interaction. My expertise lies in Extended Reality (XR), proxemic behaviors, and Human-Drone Interaction—the core pillars of my thesis project. A lifelong learner driven by the question 'but why?', I am passionate about tackling unresolved problems through innovative approaches—because the answers are out there, waiting to be uncovered.</p>
+<p>I've also collaborated on a variety of exciting projects, from child safety in social VR (with <a href="https://www.cristinafiani.com/">Cristina Fiani</a>) and authentication techniques for ATMs (with <a href="http://fmathis.com/">Florian Mathis</a>) to enhancing social robot interactions (with <a href="https://shaun-macdonald-hci.owlstown.net/">Shaun McDonald</a>).</p>
 <p>Beyond research, my interests are all over the place, keeping me inspired and thinking. These include playing music, reading, woodcarving, programming, video games, films, sports, and learning new languages. Since the time I've written this, I’ve probably engaged in a new personal project.</p>
 
 <!--
