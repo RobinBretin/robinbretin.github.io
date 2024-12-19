@@ -37,8 +37,8 @@
     {
       "name": "University of Glasgow, Glasgow, United Kingdom",
       "position": "PhD Research Activities",
-      "startDate": "2020",
-      "endDate": "2024",
+      "startDate": "2020-09",
+      "endDate": "2024-10",
       "summary": "Performed various research activities throughout my thesis. Supervised my Dr. Mohammed Khamis (University of Glasgow) and Prof. Dr. Emily Cross (ETH Zurich)",
       "highlights": [
         "Designed and conducted in-person and VR-based user studies, employing Unity, C#, and Python drone programming.",
@@ -53,15 +53,15 @@
     {
       "name": "Chalmers University of Technology, Goteborg, Sweden",
       "position": "Research Visit",
-      "startDate": "2023-05-01",
-      "endDate": "2023-06-01",
+      "startDate": "2023-05",
+      "endDate": "2023-06",
       "summary": "Led a project on Drones' Social Cues impact on proxemics, in collaboration with local researchers including Dr. Mohammad Obaid."
     },
     {
       "name": "SNCF/Human Design Group, Paris, France",
       "position": "Human Factors Consultant Intern",
-      "startDate": "2020-05-01",
-      "endDate": "2020-06-01",
+      "startDate": "2020-05",
+      "endDate": "2020-06",
       "summary": "Developed a methodology to assess human reliability in train conductor functions for the Autonomous Train project.",
       "highlights": [
         "Collaborated with train conductors and presented findings to clients."
@@ -70,8 +70,8 @@
     {
       "name": "Armed Forces Biomedical Research Institute (IRBA), Brétigny-sur-Orge, France",
       "position": "Research Intern",
-      "startDate": "2019-05-01",
-      "endDate": "2019-06-01",
+      "startDate": "2019-05",
+      "endDate": "2019-06",
       "summary": "Conducted ergonomic inspections of the VICTEAMS VR prototype.",
       "highlights": [
         "Investigated gaze-based interaction designs and collected data in VR environments.",
@@ -81,7 +81,7 @@
   ],
   "education": [
      {
-      "institution": "University of Glasgow, Glasgow, United Kingdom",
+      "institution": "University of Glasgow",
       "location": "Glasgow, United Kingdom",
       "url": "https://www.gla.ac.uk/",
       "area": "Computing Science, Psychology",
@@ -91,7 +91,9 @@
       "summary": "Thesis titled 'Beyond Boundaries: Unveiling Human-Drone Proxemic Dynamics Using Virtual Reality.'"
     },
     {
-      "institution": "École Nationale Supérieure de Cognitique (ENSC), Bordeaux, France",
+      "institution": "École Nationale Supérieure de Cognitique (ENSC)",
+      "url": "https://ensc.bordeaux-inp.fr/fr",
+      "location": "Bordeaux, France",
       "area": "Cognitive Engineering",
       "studyType": "Engineering Diploma (Master 2 Level)",
       "startDate": "2017-09-01",
@@ -99,14 +101,17 @@
       "summary": "Specialized in applied cognitive psychology to technology usage (cognitive engineering), with training in human factors, programming, artificial intelligence, and human-computer interaction."
     },
     {
-      "institution": "Laval University, Quebec, Canada",
+      "institution": "Laval University",
+      "url": "https://www.ulaval.ca/",
+      "location": "Quebec, Canada",
       "studyType": "Exchange Semester",
       "startDate": "2019-01-01",
       "endDate": "2019-05-30",
       "summary": "Lectures on Big Data, Game Design and 3D modeling during a culturally enriching exchange program."
     },
     {
-      "institution": "La Prépa des INP, Grenoble, France",
+      "institution": "La Prépa des INP",
+      "location": "Grenoble, France",
       "area": "Mathematics, Physics, and Engineering Sciences",
       "studyType": "Preparatory Classes",
       "startDate": "2015-09-01",
@@ -114,7 +119,8 @@
       "summary": "Intensive foundational studies preparing for competitive entrance exams to French Grandes Écoles."
     },
     {
-      "institution": "Lycée Notre-Dame du Roc, La Roche-sur-Yon, France",
+      "institution": "Lycée Notre-Dame du Roc",
+      "location": "La Roche-sur-Yon, France",
       "area": "Exact Sciences - Life and Earth Sciences (S-SVT)",
       "studyType": "Baccalauréat Scientifique",
       "startDate": "2012-09-01",
@@ -139,6 +145,7 @@
   "publications": [
     {
       "name": "Co-existing with Drones: A Virtual Exploration of Proxemic Behaviours and Users’ Insights on Social Drones",
+      "author": "Robin Bretin",
       "publisher": "Robin Bretin, Emily Cross, and Mohamed Khamis",
       "releaseDate": "2024-03",
       "url": "https://doi.org/10.1007/s12369-024-01111-7",
@@ -162,30 +169,35 @@
       "name": "“Do I Run Away?”: Proximity, Stress and Discomfort in Human-Drone Interaction in Real and Virtual Environments",
       "publisher": "Robin Bretin, Mohamed Khamis, and Emily Cross",
       "releaseDate": "2023-10",
+      "url": "https://doi.org/10.1007/978-3-031-42283-6_29",
       "summary": "Human-Computer Interaction – INTERACT 2023"
     },
     {
       "name": "Big Buddy: Exploring Child Reactions and Parental Perceptions towards a Simulated Embodied Moderating System for Social Virtual Reality",
       "publisher": "Cristina Fiani, Robin Bretin, Mark Mcgill, and Mohamed Khamis",
       "releaseDate": "2023-06",
+      "url": "https://doi.org/10.1145/3585088.3589374",
       "summary": "Proceedings of the 22nd Annual ACM Interaction Design and Children Conference"
     },
     {
       "name": "Big Buddy: A Simulated Embodied Moderating System to Mitigate Children’s Reaction to Provocative Situations within Social Virtual Reality",
       "publisher": "Cristina Fiani, Robin Bretin, Mark McGill, and Mohamed Khamis",
       "releaseDate": "2023-04",
+      "url" : "https://doi.org/10.1145/3544549.3585840",
       "summary": "Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems"
     },
     {
       "name": "Co-existing With a Drone: Using Virtual Reality to Investigate the Effect of the Drone’s Height and Cover Story on Proxemic Behaviours",
       "publisher": "Robin Bretin , Emily S. Cross, and Mohamed Khamis",
       "releaseDate": "2022-04",
+      "url" : "https://doi.org/10.1145/3491101.3519750",
       "summary": "Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems"
     },
     {
       "name": "The Feet in Human-Centred Security: Investigating Foot-Based User Authentication for Public Displays",
       "publisher": "Kieran Watson, Robin Bretin, Mohamed Khamis, and Florian Mathis",
       "releaseDate": "2022-04",
+      "url" :"https://dl.acm.org/doi/10.1145/3613904.3642144",
       "summary": "Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems"
     }
   ],
