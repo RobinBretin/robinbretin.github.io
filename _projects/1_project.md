@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Beyond Boundaries, Unveiling Human-Drone Proxemic Dynamics Using Virtual Reality
-description: with background image
+description: An overview of my thesis project.
 img: assets/img/12.jpg
 importance: 1
 category: work

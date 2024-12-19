@@ -1,19 +1,11 @@
 {
-  "basics": {
+  "General Information": {
     "name": "Robin Bretin",
-    "label": "PhD, HCI/HRI Researcher",
-    "image": "",
+    "label": "PhD, HCI/HRI Researcher, Cognitive Engineer",
+    "image": "moi.png",
     "email": "r.bretin.1@research.gla.ac.uk",
-    "phone": "",
-    "url": "https://robinbretin.github.io/",
+    "Google Scholar": "https://robinbretin.github.io/",
     "summary": "A French-born, curiosity-driven individual whose nature led them to become a researcher.",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "",
-      "countryCode": "French",
-      "region": ""
-    },
     "profiles": [
       {
         "network": "Linkedin",
@@ -27,80 +19,91 @@
       }
     ]
   },
-  "work": [
+  "Experiences": [
     {
       "name": "University of Glasgow, Glasgow, United Kingdom",
-      "position": "PhD Researcher",
+      "position": "PhD Research Activities",
       "startDate": "2020",
       "endDate": "2024",
-      "summary": "Conducted research on Human-Drone Interactions, focusing on Human-Drone proxemics and social drone design.",
+      "summary": "Performed various research activities throughout my thesis.",
       "highlights": [
-        "Designed and conducted in-person and VR-based user studies, employing Unity, C#, and DJI drone programming.",
-        "Presented published work at international conferences, including CHI and INTERACT.",
-        "Reviewed papers for CHI, HRI, CSCW, THRI, and ISMAR; served as 1AC for CHI LBW track.",
-        "Supervised student projects and internships."
+        "- Designed and conducted in-person and VR-based user studies, employing Unity, C#, and Python drone programming.",
+        "- Quantitative and qualitative analysis of various data format, academic reporting of the results (e.g., posters, journal and conference papers).",
+        "- Presented published work at international conferences, including CHI and INTERACT.",
+        "- Reviewed papers for CHI, HRI, CSCW, THRI, and ISMAR.",
+        "- Served as 1AC for CHI LBW track.",
+        "- Supervised student projects and internships."
       ]
     },
     {
-      "name": "Armed Forces Biomedical Research Institute (IRBA), Brétigny-sur-Orge, France",
-      "position": "Research Intern",
-      "startDate": "2019",
-      "endDate": "2019",
-      "summary": "Conducted ergonomic inspections of the VICTEAMS VR prototype.",
-      "highlights": [
-        "Investigated gaze-based interaction designs and collected data in VR environments.",
-        "Contributed to improving virtual environments for team-based training scenarios."
-      ]
+      "name": "Chalmers University of Technology, Goteborg, Sweden",
+      "position": "Research Visit",
+      "startDate": "2023-05-01",
+      "endDate": "2023-06-01",
+      "summary": "Led a project on Drones' social cues impact on proxemics, in collaboration with local researchers including <a href=https://research.chalmers.se/en/person/mobaid>Mohammad Obaid</a>."
     },
     {
       "name": "SNCF/Human Design Group, Paris, France",
-      "position": "Research Intern",
-      "startDate": "2020",
-      "endDate": "2020",
+      "position": "Human Factors Consultant Intern",
+      "startDate": "2020-05-01",
+      "endDate": "2020-06-01",
       "summary": "Developed a methodology to assess human reliability in train conductor functions for the Autonomous Train project.",
       "highlights": [
         "Collaborated with train conductors and presented findings to clients."
       ]
     },
     {
-      "name": "Chalmers University of Technology, Goteborg, Sweden",
-      "position": "Research Visit",
-      "startDate": "2019",
-      "endDate": "2019",
-      "summary": "Explored big data, Game Design and 3D modeling during a culturally enriching exchange program."
+      "name": "Armed Forces Biomedical Research Institute (IRBA), Brétigny-sur-Orge, France",
+      "position": "Research Intern",
+      "startDate": "2019-05-01",
+      "endDate": "2019-06-01",
+      "summary": "Conducted ergonomic inspections of the VICTEAMS VR prototype.",
+      "highlights": [
+        "Investigated gaze-based interaction designs and collected data in VR environments.",
+        "Contributed to improving virtual environments for team-based training scenarios."
+      ]
     }
   ],
   "education": [
     {
       "institution": "University of Glasgow, Glasgow, United Kingdom",
-      "area": "Human-Drone Interaction",
+      "location": "Glasgow, United Kingdom",
+      "url": "https://www.uzh.ch/",
+      "area": "Computing Science, Psychology",
       "studyType": "PhD",
-      "startDate": "2020",
-      "endDate": "2024",
+      "startDate": "2020-09-01",
+      "endDate": "2024-12-10",
       "summary": "Thesis titled 'Beyond Boundaries: Unveiling Human-Drone Proxemic Dynamics Using Virtual Reality.'"
     },
     {
       "institution": "École Nationale Supérieure de Cognitique (ENSC), Bordeaux, France",
       "area": "Cognitive Engineering",
-      "studyType": "Diploma",
-      "startDate": "2017",
-      "endDate": "2020",
-      "summary": "Specialized in cognitive engineering, with training in human factors, artificial intelligence, and human-computer interaction."
+      "studyType": "Engineering Diploma (Master 2 Level)",
+      "startDate": "2017-09-01",
+      "endDate": "2020-06-01",
+      "summary": "Specialized in applied cognitive psychology to technology usage (cognitive engineering), with training in human factors, programming, artificial intelligence, and human-computer interaction."
+    },
+    {
+      "institution": "Laval University, Quebec, Canada",
+      "studyType": "Exchange Semester",
+      "startDate": "2019-01-01",
+      "endDate": "2019-05-30",
+      "summary": "Lectures on Big Data, Game Design and 3D modeling during a culturally enriching exchange program."
     },
     {
       "institution": "La Prépa des INP, Grenoble, France",
       "area": "Mathematics, Physics, and Engineering Sciences",
       "studyType": "Preparatory Classes",
-      "startDate": "2015",
-      "endDate": "2017",
+      "startDate": "2015-09-01",
+      "endDate": "2017-06-01",
       "summary": "Intensive foundational studies preparing for competitive entrance exams to French Grandes Écoles."
     },
     {
       "institution": "Lycée Notre-Dame du Roc, La Roche-sur-Yon, France",
-      "area": "Life and Earth Sciences (SVT)",
+      "area": "Exact Sciences - Life and Earth Sciences (S-SVT)",
       "studyType": "Baccalauréat Scientifique",
-      "startDate": "2015",
-      "endDate": "2015",
+      "startDate": "2012-09-01",
+      "endDate": "2015-06-01",
       "summary": "Graduated with highest honors (Mention Très Bien)."
     }
   ],
@@ -170,9 +173,10 @@
     {
       "name": "Research",
       "keywords": [
+        "Understanding Human Behaviours",
         "Human-Drone Interaction",
-        "Extended Reality",
-        "Social Drones",
+        "Extended Reality (XR)",
+        "Social Robotics",
         "Proxemics"
       ]
     },
