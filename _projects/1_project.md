@@ -10,7 +10,5 @@ related_publications: true
 
 Work In Progress.
 
-{% cite abtahi_drone_2017%}
 
-{% cite abtahi%}
 {% cite bretin_co-existing_2022%}
