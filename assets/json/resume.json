@@ -81,11 +81,11 @@
   ],
   "education": [
      {
-      "institution": "University of Glasgow",
+      "institution": "University of Glasgow, Social AI CDT",
       "location": "Glasgow, United Kingdom",
-      "url": "https://www.gla.ac.uk/",
+      "url": "https://socialcdt.org/",
       "area": "Computing Science, Psychology",
-      "studyType": "PhD",
+      "studyType": "Doctor of Philosophy (PhD)",
       "startDate": "2020-09-01",
       "endDate": "2024-12-10",
       "summary": "Thesis titled 'Beyond Boundaries: Unveiling Human-Drone Proxemic Dynamics Using Virtual Reality.'"
@@ -140,6 +140,13 @@
       "date": "2023",
       "awarder": "INTERACT 2023",
       "summary": "Awarded for the best conference paper."
+    },
+    {
+      "title": "SICSA Research Scholar Funding (2x £500)",
+      "url":"https://www.sicsa.ac.uk/sicsa-graduate-academy/summer-schools/",
+      "date": "2023",
+      "awarder": "The Scottish Informatics and Computer Science Alliance",
+      "summary": "Awarded scholarships to support PhD research, granted based on a successful proposal, for attendance at conferences and/or research visits following proposal examination."
     }
   ],
   "publications": [
@@ -197,7 +204,7 @@
       "name": "The Feet in Human-Centred Security: Investigating Foot-Based User Authentication for Public Displays",
       "publisher": "Kieran Watson, Robin Bretin, Mohamed Khamis, and Florian Mathis",
       "releaseDate": "2022-04",
-      "url" :"https://dl.acm.org/doi/10.1145/3613904.3642144",
+      "url" :"https://doi.org/10.1145/3491101.3519838",
       "summary": "Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems"
     }
   ],
