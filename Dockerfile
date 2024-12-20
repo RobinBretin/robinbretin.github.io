@@ -24,7 +24,7 @@ RUN apt-get update -y && \
     apt-get install -y --no-install-recommends \
         build-essential \
         curl \
-        imagemagick-6.q16 \
+        imagemagick \
         inotify-tools \
         locales \
         nodejs \
