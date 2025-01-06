@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Robin
-middle_name: 
+middle_name:
 last_name: Bretin
 contact_note: >
   Do not hesitate contact me!
@@ -13,7 +13,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords:  # add your own keywords or leave empty
+keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: bird.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -87,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Personal Blog # blog_name will be displayed in your blog page
-blog_description: For whenever writing inspirations strike. 
+blog_description: For whenever writing inspirations strike.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 

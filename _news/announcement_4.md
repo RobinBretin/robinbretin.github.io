@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Here comes 2025! Happy new year to everyone ✨ 
+Here comes 2025! Happy new year to everyone ✨

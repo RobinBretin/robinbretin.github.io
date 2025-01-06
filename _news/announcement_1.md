@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Thesis writing retreat in France. 
+Thesis writing retreat in France.
