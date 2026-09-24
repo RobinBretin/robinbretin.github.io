@@ -83,7 +83,7 @@
     "education": [
       {
         "institution": "University of Glasgow, Social AI CDT",
-        "location": "Glasgow, United Kingdom",
+        "location": "Glasgow, UK",
         "url": "https://socialcdt.org/",
         "area": "Computing Science, Psychology",
         "studyType": "Doctor of Philosophy (PhD)",
@@ -123,7 +123,7 @@
         "institution": "Lycée Notre-Dame du Roc",
         "location": "La Roche-sur-Yon, France",
         "area": "Exact Sciences - Life and Earth Sciences (S-SVT)",
-        "studyType": "Baccalauréat Scientifique",
+        "studyType": "Baccalauréat Scientifique (Mention Très Bien)",
         "startDate": "2012-09-01",
         "endDate": "2015-06-01",
         "summary": "Graduated with highest honors (Mention Très Bien)."
@@ -150,7 +150,7 @@
       },
       {
         "title": "Scientific Research and Writing (193.052)",
-        "summary": "Contributed to seminar supervision in research methods, literature review, scientific writing, and presentation. Seminar, 3 ECTS.",
+        "summary": "Seminar supervision in research methods, literature review, scientific writing, and presentation. Seminar, 3 ECTS.",
         "date": "Winter 2025–2026",
         "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?semester=2025W&courseNr=193052"
       },
@@ -277,7 +277,7 @@
         "publisher": "Bretin, Robin; Dheilly, Robin; Cauchard, Jessica",
         "releaseDate": "2026",
         "url": "/assets/pdf/bretin-chi2026-ecological-robotics.pdf",
-        "summary": "CHI 2026 workshop contribution"
+        "summary": "CHI 2026 workshop: Everything is a Robot (and Nothing is)"
       },
       {
         "name": "Safety at Stake: How Individuals Task Prioritization Influences Human-Drone Proxemics",
