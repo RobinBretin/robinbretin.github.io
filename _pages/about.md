@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: HRI Researcher | Social Robotics, Spatial Interaction, Human Behavior & Theory · Human–Robot Interaction
+subtitle: PhD, HCI/HRI Researcher
 
 profile:
   align: right
@@ -15,14 +15,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-**Based in France and open to new opportunities in the European Union.** Get in touch on [LinkedIn](https://www.linkedin.com/in/robin-bretin-phd-21974015a/).
+> 📌 **Current Status:** Looking for a Post Doctoral position in Europe, on Human-Robot Interactions, or Extended Reality. Feel free to contact me and check my <a href="https://robinbretin.github.io/cv">CV</a>!
 
-I previously worked as a postdoctoral researcher at [TU Wien](https://informatics.tuwien.ac.at/people/robin-bretin), in the Research Unit of Artifact-based Computing and User Research, from March 2025 to September 2026. With a background in computer science and applied cognitive psychology, I work at the intersection of Human–Robot Interaction (HRI) and Human–Computer Interaction (HCI).
+<p>With a background in both computer science and applied cognitive psychology, I am a versatile 'Swiss army knife' researcher, equally at ease with technical and theoretical work in Human-Robot and Human-Computer Interaction. My expertise lies in Extended Reality (XR), proxemic behaviors, and Human-Drone Interaction—the core pillars of my thesis project. A lifelong learner driven by the question 'but why?', I am passionate about tackling unresolved problems through innovative approaches—because the answers are out there, waiting to be uncovered.</p>
+<p>I've also collaborated on a variety of exciting projects, from child safety in social VR (with <a href="https://www.cristinafiani.com/">Cristina Fiani</a>) and authentication techniques for ATMs (with <a href="http://fmathis.com/">Florian Mathis</a>) to enhancing social robot interactions (with <a href="https://shaun-macdonald-hci.owlstown.net/">Shaun McDonald</a>).</p>
+<p>Beyond research, my interests are all over the place, keeping me inspired and thinking. These include playing music, reading, woodcarving, programming, video games, films, sports, and learning new languages. Since the time I've written this, I’ve probably engaged in a new personal project.</p>
 
-**What do robots become once they enter the human world?** I investigate how people share space with robots: how they regulate interpersonal distance, how robots enter and occupy human territories, and how their presence shapes social expectations. My research combines experiments in real and virtual environments with theoretical work on the social and spatial dimensions of robotics. Recent workshop contributions explore perceived social judgment when working with cobots and an ecological perspective on robot design.
-
-My PhD at the University of Glasgow examined human–drone proxemics and the use of virtual reality to study it. I have also collaborated on child safety in social VR with [Cristina Fiani](https://www.cristinafiani.com/), authentication techniques with [Florian Mathis](https://fmathis.com/), and expressive social robots with [Shaun Macdonald](https://shaun-macdonald-hci.owlstown.net/).
-
-At TU Wien, I co-created and taught _Embodied Systems: A Human-Drone Interaction Perspective_. I also contributed to interaction design and research seminars, and supervised bachelor’s and master’s theses. See my [CV](/cv/) for teaching, academic service, awards, and funding, and my [publications](/publications/) for recent work.
-
-Beyond research, I enjoy playing music, reading, woodcarving, programming, video games, films, sports, and learning languages. Curiosity often leads me to a new personal project.
+<!--
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+# Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+# Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->

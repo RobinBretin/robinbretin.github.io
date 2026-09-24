@@ -1,10 +1,18 @@
 {
   "basics": {
     "name": "Robin Bretin",
-    "label": "HRI Researcher | Social Robotics, Spatial Interaction, Human Behavior & Theory",
+    "label": "PhD, Cognitive Engineer",
     "image": "https://i1.rgstatic.net/ii/profile.image/1155199687229443-1652432476992_Q512/Robin-Bretin.jpg",
+    "email": "r.bretin.1@research.gla.ac.uk",
     "url": "https://robinbretin.github.io/",
-    "summary": "I study how robots become part of human environments, focusing on interpersonal distance, territorial dynamics, and the social meanings of human–robot interaction. My work combines cognitive psychology, human-centered design, and experiments in real and virtual environments. Based in France and open to new opportunities in the European Union.",
+    "summary": "With a background in both computer science and applied cognitive psychology, I am a versatile 'Swiss army knife' researcher, equally at ease with technical and theoretical work in Human-Robot and Human-Computer Interaction. My expertise lies in Extended Reality, proxemic behaviors, and Human-Drone Interaction—the core pillars of my thesis project. A lifelong learner driven by the question 'but why?', I am passionate about tackling unresolved problems through innovative approaches—because the answers are out there, waiting to be uncovered.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Paris",
+      "countryCode": "FR",
+      "region": "France"
+    },
     "profiles": [
       {
         "network": "Linkedin",
@@ -16,32 +24,22 @@
         "username": "Robin Bretin",
         "url": "https://scholar.google.com/citations?user=oTu1zfMAAAAJ&hl"
       }
-    ],
-    "location": {
-      "countryCode": "FR",
-      "region": "France"
-    }
+    ]
   },
-  "work": [
+  "references": [
     {
-      "name": "TU Wien, Vienna, Austria",
-      "position": "Postdoctoral Researcher",
-      "url": "https://informatics.tuwien.ac.at/people/robin-bretin",
-      "summary": "Research Unit of Artifact-based Computing and User Research.",
-      "highlights": [
-        "I study how robots become part of human environments, focusing on interpersonal distance, territorial dynamics, and the social meanings of human–robot interaction. My work combines cognitive psychology, human-centered design, and experiments in real and virtual environments.",
-        "Co-created and taught a dedicated human–drone interaction module.",
-        "Supervised two bachelor’s thesis students and one master’s thesis student."
-      ],
-      "startDate": "2025-03",
-      "endDate": "2026-09"
-    },
+      "name": "Dr. Mohamed Khamis",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Robin is truly an exceptional researcher and I highly recommend them for any position where innovative thinking, collaborative skills, and research excellence are valued! I would have hired him if I had vacant positions!"
+    }
+  ],
+  "work": [
     {
       "name": "University of Glasgow, Glasgow, United Kingdom",
       "position": "PhD Research Activities",
       "startDate": "2020-09",
-      "endDate": "2025-03",
-      "summary": "Doctoral research supervised by Dr. Mohamed Khamis (University of Glasgow) and Prof. Emily Cross (ETH Zurich).",
+      "endDate": "2024-10",
+      "summary": "Performed various research activities throughout my thesis. Supervised my Dr. Mohammed Khamis (University of Glasgow) and Prof. Dr. Emily Cross (ETH Zurich)",
       "highlights": [
         "Designed and conducted in-person and VR-based user studies, employing Unity, C#, and Python drone programming.",
         "Quantitative and qualitative analysis of various data format using R.",
@@ -56,22 +54,22 @@
       "name": "Chalmers University of Technology, Goteborg, Sweden",
       "position": "Research Visit",
       "startDate": "2023-05",
-      "endDate": "2023-05",
+      "endDate": "2023-06",
       "summary": "Led a project on Drones' Social Cues impact on proxemics, in collaboration with local researchers including Dr. Mohammad Obaid."
     },
     {
       "name": "SNCF/Human Design Group, Paris, France",
       "position": "Human Factors Consultant Intern",
-      "startDate": "2020-02",
-      "endDate": "2020-09",
+      "startDate": "2020-05",
+      "endDate": "2020-06",
       "summary": "Developed a methodology to assess human reliability in train conductor functions for the Autonomous Train project.",
       "highlights": ["Collaborated with train conductors and presented findings to clients."]
     },
     {
       "name": "Armed Forces Biomedical Research Institute (IRBA), Brétigny-sur-Orge, France",
       "position": "Research Intern",
-      "startDate": "2019-06",
-      "endDate": "2019-09",
+      "startDate": "2019-05",
+      "endDate": "2019-06",
       "summary": "Conducted ergonomic inspections of the VICTEAMS VR prototype.",
       "highlights": [
         "Investigated gaze-based interaction designs and collected data in VR environments.",
@@ -128,138 +126,18 @@
       "summary": "Graduated with highest honors (Mention Très Bien)."
     }
   ],
-  "teaching": [
-    {
-      "title": "Embodied Systems: A Human-Drone Interaction Perspective",
-      "summary": "Co-created and taught this 12-ECTS module, combining lectures and exercises (193.163, 6 ECTS) with a project course (193.164, 6 ECTS), including two hackathons. Teaching team: Jessica Cauchard, Tom Lautenbach, Robin Dheilly, and Robin Bretin.",
-      "date": "Winter 2025–2026",
-      "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?semester=2025W&courseNr=193163"
-    },
-    {
-      "title": "Embodied Systems — Project course (193.164)",
-      "summary": "Group projects covering the design, implementation, and evaluation of interactive embodied systems.",
-      "date": "Winter 2025–2026",
-      "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?semester=2025W&courseNr=193164"
-    },
-    {
-      "title": "Seminar Media and Human-Centered Computing (193.099)",
-      "summary": "Teaching and supervision of literature reviews, critical analysis, academic writing, and presentations. Seminar, 3 ECTS.",
-      "date": "Winter 2025–2026",
-      "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?semester=2025W&courseNr=193099"
-    },
-    {
-      "title": "Scientific Research and Writing (193.052)",
-      "summary": "Contributed to seminar supervision in research methods, literature review, scientific writing, and presentation. Seminar, 3 ECTS.",
-      "date": "Winter 2025–2026",
-      "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?semester=2025W&courseNr=193052"
-    },
-    {
-      "title": "Interface und Interaction Design (193.127)",
-      "summary": "Member of the teaching team for this course in human-centered design, user research, prototyping, and evaluation. Lectures and exercises, 6 ECTS.",
-      "date": "Summer 2025",
-      "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?semester=2025S&courseNr=193127"
-    }
-  ],
-  "supervision": [
-    {
-      "title": "Bachelor’s and master’s theses",
-      "summary": "Supervision of two bachelor’s thesis students and one master’s thesis student at TU Wien.",
-      "date": "",
-      "url": ""
-    }
-  ],
-  "academic service": [
-    {
-      "title": "Associate Chair — ACM CHI",
-      "summary": "Full Papers Track.",
-      "date": "2026",
-      "url": ""
-    },
-    {
-      "title": "Associate Editor — IEEE ARSO",
-      "summary": "IEEE International Conference on Advanced Robotics and its Social Impacts.",
-      "date": "2026",
-      "url": ""
-    },
-    {
-      "title": "Associate Chair — Mensch und Computer (MuC)",
-      "summary": "",
-      "date": "2025",
-      "url": ""
-    },
-    {
-      "title": "Associate Chair — ACM CHI",
-      "summary": "Late-Breaking Work Track.",
-      "date": "2024",
-      "url": ""
-    },
-    {
-      "title": "Peer reviewing",
-      "summary": "Reviewer for ACM CHI, ACM/IEEE HRI, ACM CSCW, IMWUT, IEEE ISMAR, ACM Transactions on Human-Robot Interaction (THRI), and International Journal of Social Robotics (IJSR), with reviewing recognitions.",
-      "date": "",
-      "url": ""
-    }
-  ],
-  "funding": [
-    {
-      "title": "PHC Hubert Curien — AMADEUS Programme",
-      "summary": "Recipient of competitive international funding supporting bilateral collaborative research between ENAC (France) and TU Wien (Austria) on human factors in aviation.",
-      "date": "",
-      "url": ""
-    }
-  ],
-  "talks and workshops": [
-    {
-      "title": "A Robot Is What It Becomes: Toward Ecological Robotics",
-      "summary": "Workshop contribution at CHI 2026, with Robin Dheilly and Jessica Cauchard.",
-      "date": "2026",
-      "url": "/assets/pdf/bretin-chi2026-ecological-robotics.pdf"
-    },
-    {
-      "title": "Invited panelist — 16th IFAR Summit",
-      "summary": "Invited panelist on Quieter Aviation at the 16th IFAR Summit, Vienna. Discussed how social perception shapes noise annoyance and how human-centered approaches can support subjective noise reduction, particularly in Advanced Air Mobility.",
-      "date": "October 2025",
-      "url": "https://www.tuwien.at/alle-news/news/16th-ifar-summit"
-    },
-    {
-      "title": "IHM 2025 workshop",
-      "summary": "Workshop participant.",
-      "date": "2025",
-      "url": ""
-    },
-    {
-      "title": "What Will People Think? Workers’ Perception of Social Judgment When Using Collaborative Robots",
-      "summary": "Contribution to “The Future of Human-Robot Synergy in Interactive Environments: The Role of Robots at the Workplace”, CHIWORK 2025, Amsterdam. With Robin Dheilly and Jessica Cauchard.",
-      "date": "June 2025",
-      "url": "/assets/pdf/bretin-chiwork2025-social-judgment.pdf"
-    }
-  ],
   "awards": [
-    {
-      "title": "Honorable Mention (top 5%)",
-      "date": "2026",
-      "awarder": "ACM CHI 2026",
-      "url": "https://doi.org/10.1145/3772318.3791257",
-      "summary": "For “ENtry, Occupancy, EXit (NOX): A Model of Human–Robot Territorial Dynamics.”"
-    },
-    {
-      "title": "Finalist — Gender-Inclusive Teaching Innovation",
-      "date": "2025",
-      "awarder": "TU Wien Best Teaching Awards",
-      "url": "https://www.tuwien.at/en/studies/teaching-at-tu-wien/best-teaching-awards/ceremonies-2017-2025/best-teaching-awards-2025",
-      "summary": "Team recognition for Interface und Interaction Design, with Jessica Cauchard, Robin Dheilly, Tom Lautenbach, and Florian Michahelles."
-    },
     {
       "title": "IFIP TC13 Pioneers' Award for Best Doctoral Student Paper",
       "date": "2023",
       "awarder": "INTERACT 2023",
-      "summary": "For “Do I Run Away?”: Proximity, Stress and Discomfort in Human-Drone Interaction in Real and Virtual Environments."
+      "summary": "Recognized for exceptional contribution to doctoral research in Human-Computer Interaction."
     },
     {
-      "title": "Reviewer’s Choice Award",
+      "title": "Best Paper Reviewers' Choice Award",
       "date": "2023",
       "awarder": "INTERACT 2023",
-      "summary": "For “Do I Run Away?”: Proximity, Stress and Discomfort in Human-Drone Interaction in Real and Virtual Environments."
+      "summary": "Awarded for the best conference paper."
     },
     {
       "title": "SICSA Research Scholar Funding (2x £500)",
@@ -271,67 +149,12 @@
   ],
   "publications": [
     {
-      "name": "ENtry, Occupancy, EXit (NOX): A Model of Human-Robot Territorial Dynamics",
-      "publisher": "Bretin, Robin; Dheilly, Robin; Cauchard, Jessica R.",
-      "releaseDate": "2026",
-      "url": "https://doi.org/10.1145/3772318.3791257",
-      "summary": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems"
-    },
-    {
-      "name": "A Robot Is What It Becomes: Toward Ecological Robotics",
-      "publisher": "Bretin, Robin; Dheilly, Robin; Cauchard, Jessica",
-      "releaseDate": "2026",
-      "url": "/assets/pdf/bretin-chi2026-ecological-robotics.pdf",
-      "summary": "CHI 2026 workshop contribution"
-    },
-    {
-      "name": "Safety at Stake: How Individuals Task Prioritization Influences Human-Drone Proxemics",
-      "publisher": "Bretin, Robin; Cross, Emily; Khamis, Mohamed",
-      "releaseDate": "2025",
-      "url": "https://doi.org/10.1145/3748520",
-      "summary": "ACM Transactions on Human-Robot Interaction"
-    },
-    {
-      "name": "“Abracadabra, Block the Bullies!”: Child Perceptions of Manual, Semi-Automated and Automated Interventions against Group Harassment in Social VR",
-      "publisher": "Fiani, Cristina; Bretin, Robin; McGill, Mark; Khamis, Mohamed",
-      "releaseDate": "2025",
-      "url": "https://doi.org/10.1145/3713043.3728850",
-      "summary": "Proceedings of the 24th Interaction Design and Children Conference"
-    },
-    {
-      "name": "Animations sur drone pour la lutte contre les incendies",
-      "publisher": "Dheilly, Robin; Bretin, Robin; Brock, Anke; Cauchard, Jessica",
-      "releaseDate": "2025",
-      "url": "https://hal.science/hal-05299599v1",
-      "summary": "IHM 2025 — Conférence Internationale Francophone sur l’Interaction Humain-Machine"
-    },
-    {
-      "name": "What Will People Think? Workers’ Perception of Social Judgment When Using Collaborative Robots",
-      "publisher": "Bretin, Robin; Dheilly, Robin; Cauchard, Jessica",
-      "releaseDate": "2025",
-      "url": "/assets/pdf/bretin-chiwork2025-social-judgment.pdf",
-      "summary": "CHIWORK 2025 workshop: The Future of Human-Robot Synergy in Interactive Environments: The Role of Robots at the Workplace"
-    },
-    {
-      "name": "The Role of Drone’s Digital Facial Emotions and Gaze in Shaping Individuals’ Social Proxemics and Interpretation",
-      "publisher": "Robin Bretin, Mohamed Khamis, Emily Cross, and Mohammad Obaid",
-      "releaseDate": "2025",
-      "url": "https://doi.org/10.1145/3714477",
-      "summary": "ACM Transactions on Human-Robot Interaction, 14(3), Article 48."
-    },
-    {
-      "name": "Understanding Dynamic Human-Robot Proxemics in the Case of Four-Legged Canine-Inspired Robots",
-      "publisher": "Xiangmin Xu, Zhen Meng, Emma Li, Mohamed Khamis, Philip G. Zhao, and Robin Bretin",
-      "releaseDate": "2025",
-      "url": "https://eprints.gla.ac.uk/346899/",
-      "summary": "IEEE International Conference on Robotics and Automation (ICRA), pp. 7808–7814."
-    },
-    {
-      "name": "Evaluating Transferable Emotion Expressions for Zoomorphic Social Robots using VR Prototyping",
-      "publisher": "Shaun Macdonald, Robin Bretin, and Salma ElSayed",
-      "releaseDate": "2024-10",
-      "url": "https://doi.org/10.1109/ISMAR62088.2024.00125",
-      "summary": "IEEE International Symposium on Mixed and Augmented Reality (ISMAR)"
+      "name": "Co-existing with Drones: A Virtual Exploration of Proxemic Behaviours and Users’ Insights on Social Drones",
+      "author": "Robin Bretin",
+      "publisher": "Robin Bretin, Emily Cross, and Mohamed Khamis",
+      "releaseDate": "2024-03",
+      "url": "https://doi.org/10.1007/s12369-024-01111-7",
+      "summary": "International Journal of Social Robotics"
     },
     {
       "name": "'Pikachu would electrocute people who are misbehaving': Expert, Guardian and Child Perspectives on Automated Embodied Moderators for Safeguarding Children in Social Virtual Reality",
@@ -341,12 +164,11 @@
       "summary": "Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems"
     },
     {
-      "name": "Co-existing with Drones: A Virtual Exploration of Proxemic Behaviours and Users’ Insights on Social Drones",
-      "author": "Robin Bretin",
-      "publisher": "Robin Bretin, Emily Cross, and Mohamed Khamis",
-      "releaseDate": "2024-03",
-      "url": "https://doi.org/10.1007/s12369-024-01111-7",
-      "summary": "International Journal of Social Robotics"
+      "name": "Evaluating Transferable Emotion Expressions for Zoomorphic Social Robots using VR Prototyping",
+      "publisher": "Shaun Macdonald, Robin Bretin, and Salma ElSayed",
+      "releaseDate": "2024-10",
+      "url": "https://doi.org/10.1109/ISMAR62088.2024.00125",
+      "summary": "IEEE International Symposium on Mixed and Augmented Reality (ISMAR)"
     },
     {
       "name": "“Do I Run Away?”: Proximity, Stress and Discomfort in Human-Drone Interaction in Real and Virtual Environments",
@@ -386,7 +208,7 @@
   ],
   "skills": [
     {
-      "name": "Software & Programming",
+      "name": "Software & Progamming",
       "keywords": [
         "Unity",
         "C#",
@@ -394,7 +216,7 @@
         "Python",
         "Drone Programming (e.g., DJI)",
         "Blender (3D Modeling)",
-        "HTML (Web dev)",
+        "HMTL (Web dev)",
         "GitHub",
         "R",
         "Latex - Overleaf"
@@ -440,16 +262,7 @@
   "interests": [
     {
       "name": "Research",
-      "keywords": [
-        "Understanding Human Behaviours",
-        "Human-Drone Interaction",
-        "Extended Reality (XR)",
-        "Social Robotics",
-        "Proxemics",
-        "Human–Robot Territoriality",
-        "Social Judgment",
-        "Ecological Robotics"
-      ]
+      "keywords": ["Understanding Human Behaviours", "Human-Drone Interaction", "Extended Reality (XR)", "Social Robotics", "Proxemics"]
     },
     {
       "name": "Hobbies",
@@ -462,13 +275,6 @@
         "Sports enthusiast",
         "Nature"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Dr. Mohamed Khamis",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Robin is truly an exceptional researcher and I highly recommend them for any position where innovative thinking, collaborative skills, and research excellence are valued! I would have hired him if I had vacant positions!"
     }
   ]
 }
