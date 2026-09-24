@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: HRI Researcher | Social Robotics, Spatial Interaction, Human Behavior & Theory · Human–Robot Interaction
+subtitle: HRI Researcher | Social Robotics, Spatial Interaction, Human Behavior & Theory
 
 profile:
   align: right
-  image: moi.jpg
+  image: moi2.jpg
   image_circular: false # crops the image to make it circular
   more_info:
 
@@ -24,10 +24,10 @@ I previously worked as a postdoctoral researcher at TU Wien, in the Research Uni
 <p>My PhD at the University of Glasgow examined human–drone proxemics and the use of virtual reality to study it. I have also collaborated on child safety in social VR with <a href="https://www.cristinafiani.com/">Cristina Fiani</a>, authentication techniques with <a href="http://fmathis.com/">Florian Mathis</a>, and expressive social robots with <a href="https://shaun-macdonald-hci.owlstown.net/">Shaun McDonald</a>.</p>
 
 <p>
-  At TU Wien, I co-created and taught <em>Embodied Systems: A Human-Drone Interaction Perspective</em>. I also contributed to interaction design and research seminars, and supervised bachelor’s and master’s theses. See my <a href="/cv/">CV</a> for teaching, academic service, awards, and funding, and my <a href="/publications/">publications</a> for recent work.
+  At TU Wien, I co-created and taught <em>Embodied Systems: A Human-Drone Interaction Perspective</em>. I also contributed to interaction design course and research seminars, and supervised bachelor’s and master’s theses. See my <a href="/cv/">CV</a> for teaching, academic service, awards, and funding, and my <a href="/publications/">publications</a> for recent work.
 </p>
 
-<p>Beyond research, I enjoy playing music, reading, woodcarving, programming, video games, films, sports, and learning languages. Curiosity often leads me to a new personal project.</p>
+<p>Beyond research, I enjoy playing music, reading, woodcarving, video games, films, sports and learning new things. Curiosity often leads me to a continuously new personal project.</p>
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
