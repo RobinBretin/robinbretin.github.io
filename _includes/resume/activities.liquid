@@ -1,0 +1,21 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for content in data[1] %}
+    <li class="list-group-item">
+      {% if content.date != empty %}
+        <p class="text-muted mb-1">{{ content.date | escape }}</p>
+      {% endif %}
+      <h6 class="font-weight-bold">
+        {% if content.url != empty %}
+          <a href="{% if content.url contains '://' %}{{ content.url }}{% else %}{{ content.url | relative_url }}{% endif %}">
+            {{- content.title | escape -}}
+          </a>
+        {% else -%}
+          {{- content.title | escape -}}
+        {%- endif %}
+      </h6>
+      {% if content.summary != empty %}
+        <p class="mb-0">{{ content.summary | escape }}</p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

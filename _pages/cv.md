@@ -4,8 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: CV.pdf
-description: A Summary of my Education and Working Experiences.
+cv_pdf:
+description: Research, teaching, academic service, awards, and funding.
 toc:
   sidebar: left
 ---
