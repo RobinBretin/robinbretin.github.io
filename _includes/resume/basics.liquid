@@ -1,5 +1,5 @@
 <div class="card-text font-weight-light">
-  <div class="row">
+  <div class="row align-items-start">
 
     <!-- Photo -->
     {% if data[1].image and data[1].image != '' %}
@@ -8,133 +8,99 @@
           src="{{ data[1].image | relative_url }}"
           alt="{{ data[1].name }}"
           class="img-fluid rounded"
-          style="max-width: 180px;"
+          style="max-width: 170px;"
         >
       </div>
     {% endif %}
 
-    <!-- Main information -->
+    <!-- Information -->
     <div class="{% if data[1].image and data[1].image != '' %}col-md-9{% else %}col-md-12{% endif %}">
 
+      <!-- Name -->
       {% if data[1].name and data[1].name != '' %}
         <h4 class="font-weight-bold mb-1">
           {{ data[1].name }}
         </h4>
       {% endif %}
 
+      <!-- Position -->
       {% if data[1].label and data[1].label != '' %}
-        <p class="mb-3">
+        <p class="mb-2">
           {{ data[1].label }}
         </p>
       {% endif %}
 
-      <table class="table table-cv table-sm table-borderless">
-        <tbody>
+      <!-- Profiles -->
+      {% if data[1].profiles %}
+        <div class="mb-3">
+          {% for profile in data[1].profiles %}
 
-          {% if data[1].email and data[1].email != '' %}
-            <tr>
-              <td class="p-1 pr-2 font-weight-bold">
-                <b>Email</b>
-              </td>
-              <td class="p-1 pl-2">
-                <a href="mailto:{{ data[1].email }}">
-                  {{ data[1].email }}
-                </a>
-              </td>
-            </tr>
-          {% endif %}
+            {% if profile.network == "LinkedIn" %}
+              <a
+                href="{{ profile.url }}"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                title="LinkedIn"
+                style="font-size: 1.6rem; margin-right: 0.8rem; text-decoration: none;"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
 
-          {% if data[1].phone and data[1].phone != '' %}
-            <tr>
-              <td class="p-1 pr-2 font-weight-bold">
-                <b>Phone</b>
-              </td>
-              <td class="p-1 pl-2">
-                <a href="tel:{{ data[1].phone }}">
-                  {{ data[1].phone }}
-                </a>
-              </td>
-            </tr>
-          {% endif %}
+            {% elsif profile.network == "Google Scholar" %}
+              <a
+                href="{{ profile.url }}"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Google Scholar"
+                title="Google Scholar"
+                style="font-size: 1.6rem; margin-right: 0.8rem; text-decoration: none;"
+              >
+                <i class="ai ai-google-scholar"></i>
+              </a>
+            {% endif %}
 
-          {% if data[1].url and data[1].url != '' %}
-            <tr>
-              <td class="p-1 pr-2 font-weight-bold">
-                <b>Website</b>
-              </td>
-              <td class="p-1 pl-2">
-                <a href="{{ data[1].url }}" target="_blank" rel="noopener noreferrer">
-                  {{ data[1].url }}
-                </a>
-              </td>
-            </tr>
-          {% endif %}
-
-          {% if data[1].location %}
-            <tr>
-              <td class="p-1 pr-2 font-weight-bold">
-                <b>Location</b>
-              </td>
-              <td class="p-1 pl-2">
-                {% if data[1].location.city %}
-                  {{ data[1].location.city }}
-                {% endif %}
-
-                {% if data[1].location.region %}
-                  {% if data[1].location.city %}, {% endif %}
-                  {{ data[1].location.region }}
-                {% endif %}
-
-                {% if data[1].location.countryCode %}
-                  {% if data[1].location.city or data[1].location.region %}, {% endif %}
-                  {{ data[1].location.countryCode }}
-                {% endif %}
-              </td>
-            </tr>
-          {% endif %}
-
-          {% if data[1].profiles %}
-  <div class="mt-2">
-    {% for profile in data[1].profiles %}
-
-      {% if profile.network == "LinkedIn" %}
-        <a href="{{ profile.url }}"
-           target="_blank"
-           rel="noopener noreferrer"
-           aria-label="LinkedIn"
-           title="LinkedIn"
-           style="font-size: 1.6rem; margin-right: 0.8rem; text-decoration: none;">
-          <i class="fa-brands fa-linkedin"></i>
-        </a>
-
-      {% elsif profile.network == "Google Scholar" %}
-        <a href="{{ profile.url }}"
-           target="_blank"
-           rel="noopener noreferrer"
-           aria-label="Google Scholar"
-           title="Google Scholar"
-           style="font-size: 1.6rem; margin-right: 0.8rem; text-decoration: none;">
-          <i class="ai ai-google-scholar"></i>
-        </a>
-
+          {% endfor %}
+        </div>
       {% endif %}
 
-    {% endfor %}
-  </div>
-{% endif %}
+      <!-- Contact -->
+      <div style="line-height: 1.9;">
 
-        </tbody>
-      </table>
+        {% if data[1].email and data[1].email != '' %}
+          <div>
+            <i class="fa-solid fa-envelope" style="width: 25px;"></i>
+            <a href="mailto:{{ data[1].email }}">
+              {{ data[1].email }}
+            </a>
+          </div>
+        {% endif %}
+
+        {% if data[1].url and data[1].url != '' %}
+          <div>
+            <i class="fa-solid fa-globe" style="width: 25px;"></i>
+            <a href="{{ data[1].url }}" target="_blank" rel="noopener noreferrer">
+              {{ data[1].url }}
+            </a>
+          </div>
+        {% endif %}
+
+        {% if data[1].location and data[1].location.region %}
+          <div>
+            <i class="fa-solid fa-location-dot" style="width: 25px;"></i>
+            {{ data[1].location.region }}
+          </div>
+        {% endif %}
+
+      </div>
+
+      <!-- Summary -->
+      {% if data[1].summary and data[1].summary != '' %}
+        <p class="mt-3 mb-0">
+          {{ data[1].summary }}
+        </p>
+      {% endif %}
 
     </div>
   </div>
-
-  <!-- Summary -->
-  {% if data[1].summary and data[1].summary != '' %}
-    <div class="mt-3">
-      <p>
-        {{ data[1].summary }}
-      </p>
-    </div>
-  {% endif %}
 </div>
