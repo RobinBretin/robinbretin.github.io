@@ -1,18 +1,7 @@
 <div class="card-text font-weight-light">
   <div class="row align-items-start">
 
-    <!-- Photo -->
-    {% if data[1].image and data[1].image != '' %}
-      <div class="col-md-3 text-center mb-3 mb-md-0">
-        <img
-          src="{{ data[1].image | relative_url }}"
-          alt="{{ data[1].name }}"
-          class="img-fluid rounded"
-          style="max-width: 170px;"
-        >
-      </div>
-    {% endif %}
-
+   
     <!-- Information -->
     <div class="{% if data[1].image and data[1].image != '' %}col-md-9{% else %}col-md-12{% endif %}">
 
