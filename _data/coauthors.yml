@@ -25,3 +25,17 @@
 "macdonald":
   - firstname: ["Shaun", "S."]
     url: https://shaun-macdonald-hci.owlstown.net/
+
+"cauchard":
+  - firstname: ["Jessica", "J."]
+    url: https://scholar.google.com/citations?user=Rk1SDB8AAAAJ&hl=fr
+
+"dheilly":
+  - firstname: ["Robin", "R."]
+    url: https://orcid.org/0009-0006-0687-654X
+
+"brock":
+  - firstname: ["Anke", "A."]
+    url: https://people.bordeaux.inria.fr/abrock
+
+
