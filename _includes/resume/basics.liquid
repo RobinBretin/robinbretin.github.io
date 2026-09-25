@@ -1,28 +1,140 @@
-<table class="table table-cv table-sm table-borderless table-responsive table-cv-map">
-  {% assign skip_basics = 'image,profiles,location' | split: ',' %}
-  {% for content in data[1] %}
-    {%
-      if (content[1] == "") or (skip_basics contains
-      content[0])
-    %}
-      {% continue %}
+<div class="card-text font-weight-light">
+  <div class="row">
+
+    <!-- Photo -->
+    {% if data[1].image and data[1].image != '' %}
+      <div class="col-md-3 text-center mb-3 mb-md-0">
+        <img
+          src="{{ data[1].image | relative_url }}"
+          alt="{{ data[1].name }}"
+          class="img-fluid rounded"
+          style="max-width: 180px;"
+        >
+      </div>
     {% endif %}
 
-    <tr>
-      <td class="p-1 pr-2 font-weight-bold">
-        <b>{{ content[0] | capitalize }}</b>
-      </td>
-      <td class="p-1 pl-2 font-weight-light text">
-        {% if content[0] == 'url' %}
-          <a href="{{ content[1] }}" target="_blank" rel="noopener noreferrer">{{ content[1] }}</a>
-        {% elsif content[0] == 'email' %}
-          <a href="mailto:{{ content[1] }}" target="_blank">{{ content[1] }}</a>
-        {% elsif content[0] == 'phone' %}
-          <a href="tel:{{ content[1] }}">{{ content[1] }}</a>
-        {% else %}
-          {{ content[1] }}
-        {% endif %}
-      </td>
-    </tr>
-  {% endfor %}
-</table>
+    <!-- Main information -->
+    <div class="{% if data[1].image and data[1].image != '' %}col-md-9{% else %}col-md-12{% endif %}">
+
+      {% if data[1].name and data[1].name != '' %}
+        <h4 class="font-weight-bold mb-1">
+          {{ data[1].name }}
+        </h4>
+      {% endif %}
+
+      {% if data[1].label and data[1].label != '' %}
+        <p class="mb-3">
+          {{ data[1].label }}
+        </p>
+      {% endif %}
+
+      <table class="table table-cv table-sm table-borderless">
+        <tbody>
+
+          {% if data[1].email and data[1].email != '' %}
+            <tr>
+              <td class="p-1 pr-2 font-weight-bold">
+                <b>Email</b>
+              </td>
+              <td class="p-1 pl-2">
+                <a href="mailto:{{ data[1].email }}">
+                  {{ data[1].email }}
+                </a>
+              </td>
+            </tr>
+          {% endif %}
+
+          {% if data[1].phone and data[1].phone != '' %}
+            <tr>
+              <td class="p-1 pr-2 font-weight-bold">
+                <b>Phone</b>
+              </td>
+              <td class="p-1 pl-2">
+                <a href="tel:{{ data[1].phone }}">
+                  {{ data[1].phone }}
+                </a>
+              </td>
+            </tr>
+          {% endif %}
+
+          {% if data[1].url and data[1].url != '' %}
+            <tr>
+              <td class="p-1 pr-2 font-weight-bold">
+                <b>Website</b>
+              </td>
+              <td class="p-1 pl-2">
+                <a href="{{ data[1].url }}" target="_blank" rel="noopener noreferrer">
+                  {{ data[1].url }}
+                </a>
+              </td>
+            </tr>
+          {% endif %}
+
+          {% if data[1].location %}
+            <tr>
+              <td class="p-1 pr-2 font-weight-bold">
+                <b>Location</b>
+              </td>
+              <td class="p-1 pl-2">
+                {% if data[1].location.city %}
+                  {{ data[1].location.city }}
+                {% endif %}
+
+                {% if data[1].location.region %}
+                  {% if data[1].location.city %}, {% endif %}
+                  {{ data[1].location.region }}
+                {% endif %}
+
+                {% if data[1].location.countryCode %}
+                  {% if data[1].location.city or data[1].location.region %}, {% endif %}
+                  {{ data[1].location.countryCode }}
+                {% endif %}
+              </td>
+            </tr>
+          {% endif %}
+
+          {% if data[1].profiles %}
+  <div class="mt-2">
+    {% for profile in data[1].profiles %}
+
+      {% if profile.network == "LinkedIn" %}
+        <a href="{{ profile.url }}"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="LinkedIn"
+           title="LinkedIn"
+           style="font-size: 1.6rem; margin-right: 0.8rem; text-decoration: none;">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+      {% elsif profile.network == "Google Scholar" %}
+        <a href="{{ profile.url }}"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Google Scholar"
+           title="Google Scholar"
+           style="font-size: 1.6rem; margin-right: 0.8rem; text-decoration: none;">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+
+      {% endif %}
+
+    {% endfor %}
+  </div>
+{% endif %}
+
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+
+  <!-- Summary -->
+  {% if data[1].summary and data[1].summary != '' %}
+    <div class="mt-3">
+      <p>
+        {{ data[1].summary }}
+      </p>
+    </div>
+  {% endif %}
+</div>
