@@ -6,4 +6,4 @@ related_posts: false
 ---
 <!-- Date note: month/year known; day set to 01 as a placeholder. -->
 
-**[GRANT WRITING ✍️]** March turned into an intense grant-writing month, with two proposals built around France–Austria research collaborations. One of them would later be funded in January 2026!
+March turned into an intense grant-writing month, with two proposals built around France (ENAC) – Austria(TU WIEN) research collaborations. They would later be funded in January 2026!

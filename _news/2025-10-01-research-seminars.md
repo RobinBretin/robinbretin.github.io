@@ -6,4 +6,4 @@ related_posts: false
 ---
 <!-- Date note: month/year known; day set to 01 as a placeholder. -->
 
-**[TEACHING & SUPERVISION 🔬]** This semester I also worked with bachelor’s and master’s students taking some of their first steps into research, from literature reviews and research questions to study design, writing, and presentations.
+This semester I also worked through seminars with bachelor’s and master’s students taking some of their first steps into research, from literature reviews and research questions to study design, writing, and presentations.

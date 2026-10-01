@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**[INVITED PANEL ✈️]** I joined the 16th IFAR Summit in Vienna as an invited panelist on quieter aviation, discussing how social perception shapes noise annoyance and how human-centered perspectives can contribute to Advanced Air Mobility.
+**[INVITED PANELIST ✈️]** I joined the <a href="https://ifar.aero/summits/summitvienna">16th IFAR Summit in Vienna</a> as an invited panelist on quieter aviation, discussing how social perception shapes noise annoyance and how human-centered perspectives can contribute to Advanced Air Mobility.

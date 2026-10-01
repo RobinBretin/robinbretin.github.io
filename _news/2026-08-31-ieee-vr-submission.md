@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**[SUBMISSION 🥽]** Another paper out the door, this time to IEEE VR. A nice opportunity to reconnect with the virtual-reality side of my research and push a new project toward publication.
+Another paper out the door, this time to [IEEE VR](https://ieeevr.org/2027/). A nice opportunity to reconnect with the virtual-reality side of my research and push a new project toward publication.
