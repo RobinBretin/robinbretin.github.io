@@ -6,4 +6,4 @@ related_posts: false
 ---
 <!-- Date note: month/year known; day set to 01 as a placeholder. -->
 
-**[GRANT WRITING ✍️]** Spent part of March–April contributing substantially to a WEAVE FWF–DFG collaborative research proposal. It is currently under review, and was another opportunity to help shape an international research collaboration from the proposal stage.
+Spent part of March–April contributing substantially to a WEAVE FWF–DFG collaborative research proposal. It is currently under review, and was another opportunity to help shape an international research collaboration from the proposal stage.

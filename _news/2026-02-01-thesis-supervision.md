@@ -6,4 +6,4 @@ related_posts: false
 ---
 <!-- Date note: month/year known; day set to 01 as a placeholder. -->
 
-**[SUPERVISION 🎓]** This year I am supervising one master’s thesis and two bachelor’s theses at TU Wien. It has been rewarding to see projects evolve from early questions into independent research.
+This year I am supervising one master’s thesis and two bachelor’s theses at TU Wien. It has been rewarding to see projects evolve from early questions into independent research.

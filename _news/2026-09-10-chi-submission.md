@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**[SUBMISSION 📬]** Another CHI submission out the door. Even after a few rounds of this, the final stretch somehow remains equal parts exhausting and exciting.
+[CHI 27](https://chi2027.acm.org/) submission done! Even after a few rounds of this, the final stretch somehow remains equal parts exhausting and exciting.

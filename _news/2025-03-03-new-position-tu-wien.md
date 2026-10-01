@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**[NEW POSITION 🚀]** I joined TU Wien as a postdoctoral researcher, working with Jessica Cauchard on Human–Drone Interaction and broader questions around how robots become embedded in human environments.
+**[NEW POSITION 🚀]** I joined TU Wien as a postdoctoral researcher, working with Jessica Cauchard.
