@@ -27,7 +27,7 @@
     url: https://shaun-macdonald-hci.owlstown.net/
 
 "cauchard":
-  - firstname: ["Jessica", "J."]
+  - firstname: ["Jessica","Jessica R.", "J."]
     url: https://scholar.google.com/citations?user=Rk1SDB8AAAAJ&hl=fr
 
 "dheilly":
@@ -37,5 +37,3 @@
 "brock":
   - firstname: ["Anke", "A."]
     url: https://people.bordeaux.inria.fr/abrock
-
-
