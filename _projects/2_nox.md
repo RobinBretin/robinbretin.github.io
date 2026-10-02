@@ -74,7 +74,7 @@ Importantly, NOX does not prescribe one universally correct behavior—for examp
 <div style="width: 95%; margin: 2rem auto;">
 
 {% include figure.liquid
-  path="assets/img/projects/territoriality/modelTer.png"
+  path="assets/img/projects/territoriality/modelTer.jpg"
   title="NOX model of Human–Robot Territorial Dynamics"
   class="img-fluid rounded z-depth-1"
 %}
