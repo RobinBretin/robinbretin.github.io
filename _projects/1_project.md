@@ -1,12 +1,27 @@
 ---
 layout: page
-title: "Beyond Boundaries: Human–Drone Proxemics"
+title: "Human–Drone Proxemics"
 description: Understanding why people move closer to or farther away from drones.
 img: assets/img/projects/proxemics.png
-importance: 1
+importance: 2
 category: work
 related_publications: true
 ---
+
+{% if page.img %}
+<figure class="mb-4">
+  <img
+    src="{{ assets/img/projects/proxemics.jpg }}"
+    alt="{{ page.title }}"
+    class="img-fluid rounded z-depth-1"
+  >
+  {% if page.img_caption %}
+  <figcaption class="text-muted small mt-2">
+    {{ page.img_caption }}
+  </figcaption>
+  {% endif %}
+</figure>
+{% endif %}
 
 ## In one sentence
 
@@ -22,7 +37,7 @@ This question formed the core of my PhD research on **Human–Drone Proxemics**.
 
 Early work showed that established assumptions from human–human or human–robot proxemics do not necessarily transfer directly to flying robots. Drones are perceived through a combination of their mechanical nature, sensory characteristics, behavior, and the context in which the interaction takes place.
 
-{% cite COEXISTING_2024_KEY %}
+{% cite bretin_co-existing_2024%}
 
 ## What shapes our distance from drones?
 
@@ -32,7 +47,7 @@ Across a series of empirical studies, I investigated four complementary mechanis
 
 Distance can communicate something about a relationship or interaction. I explored whether drones can participate in these social spatial dynamics, including how cues such as gaze and facial expressions influence people's interpretations and behavior.
 
-{% cite DRONE_EMOTIONS_KEY %}
+{% cite bretin_role_2025%}
 
 ### Defense
 
@@ -40,7 +55,7 @@ Sometimes distance is less about communication than about protection.
 
 A drone approaching a person brings moving propellers, noise, uncertainty, and the possibility of collision. In experiments conducted in both virtual and real environments, I studied how proximity and speed influence discomfort, stress, perceived threat, and people's tendency to move away.
 
-{% cite RUN_AWAY_KEY %}
+{% cite bretin_i_2023%}
 
 ### Goals
 
@@ -48,7 +63,7 @@ People do not always prioritize comfort or safety above everything else.
 
 When someone is focused on completing a task, maintaining an ideal distance from a drone may become secondary. I investigated how task demands and perceived danger compete, and how people adapt their behavior when approaching the drone helps them achieve another goal.
 
-{% cite SAFETY_AT_STAKE_KEY %}
+{% cite bretin_safety_2025%}
 
 ### Arousal regulation
 

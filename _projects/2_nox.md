@@ -12,7 +12,7 @@ related_publications: true
 {% if page.img %}
 <figure class="mb-4">
   <img
-    src="{{ page.img | relative_url }}"
+    src="{{ assets/img/projects/territoriality.jpg }}"
     alt="{{ page.title }}"
     class="img-fluid rounded z-depth-1"
   >
