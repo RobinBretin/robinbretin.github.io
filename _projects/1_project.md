@@ -8,16 +8,6 @@ category: work
 related_publications: true
 ---
 
-{% include figure.liquid
-  path="assets/img/projects/proxemics.png"
-  title="Human–Drone Proxemics"
-  class="img-fluid rounded z-depth-1"
-%}
-
-<p class="caption">
-  Four mechanisms shaping human–drone proxemic behavior.
-</p>
-
 ## In one sentence
 
 I study why people move closer to or farther away from drones, and the psychological mechanisms that shape these spatial relationships.
@@ -35,6 +25,17 @@ This led me to ask: **what shapes the distances people maintain around drones?**
 This question formed the core of my PhD research on **Human–Drone Proxemics**. Rather than asking only *how far* people want to stay from drones, I became interested in **what drives these spatial adjustments in the first place**.
 
 This motivated a series of studies examining different mechanisms that can shape people's spatial relationships with drones: communicating social meaning, responding to potential threats, pursuing a task, and regulating stimulation. Together, these studies progressively revealed a more complex picture of how spatial behavior emerges {% cite bretin_beyond_2025%}.
+
+{% include figure.liquid
+  path="assets/img/projects/proxemics.png"
+  title="Human–Drone Proxemics"
+  class="img-fluid rounded z-depth-1"
+%}
+
+<p class="caption">
+  Four mechanisms shaping human–drone proxemic behavior.
+</p>
+
 
 ## What shapes our distance from drones?
 
@@ -59,7 +60,7 @@ Across a series of empirical studies, I investigated four complementary mechanis
           interpretations and behavior.
         </p>
         <p class="card-text">
-          {% cite bretin_role_2025 %}
+          {% cite bretin_role_2025 bretin_co-existing_2024%}
         </p>
       </div>
     </div>
@@ -123,11 +124,15 @@ An important part of this model is that proxemic behavior does not begin with di
 
 A drone produces visual, auditory, and other sensory cues that are filtered through the environment, the situation, and the individual's own characteristics. Only some of this information becomes sufficiently relevant to influence higher-level interpretation and behavior.
 
+<div style="width: 80%; margin: 0 auto;">
+
 {% include figure.liquid
   path="assets/img/projects/cog.png"
   title="Sensory processing in Human–Drone Proxemics"
   class="img-fluid rounded z-depth-1"
 %}
+
+</div>
 
 <p class="caption">
   A closer look at the sensory-processing component of the model, showing how drone outputs are filtered before contributing to higher-level interpretation.
@@ -145,11 +150,15 @@ This led me to reverse the usual way of thinking about proxemics. Rather than st
 
 My PhD brought these mechanisms and their interactions together into a holistic model of **Human–Drone Proxemics**.
 
-{% include figure.liquid
-  path="assets/img/projects/proxmodel.png"
-  title="Holistic model of Human–Drone Proxemics"
-  class="img-fluid rounded z-depth-1"
-%}
+<div style="width: 80%; margin: 0 auto;">
+
+  {% include figure.liquid
+    path="assets/img/projects/proxmodel.svg"
+    title="Holistic model of Human–Drone Proxemics"
+    class="img-fluid rounded z-depth-1"
+  %}
+
+</div>
 
 <p class="caption">
   A holistic model of Human–Drone Proxemics, from sensory processing and situational assessment to competing proxemic motivations and behavioral responses.

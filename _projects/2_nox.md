@@ -24,23 +24,80 @@ I study how robots enter, occupy, and leave socially meaningful spaces, and what
 
 ## The idea
 
-Robots do not move through empty space. Homes, workplaces, streets, shops, and even the spaces surrounding them are shaped by expectations about **who can enter, what they can do there, and under what conditions**.
+Spaces are not socially neutral.
 
-Human–Robot Interaction has traditionally approached the social use of space through **proxemics**—the distances people maintain around robots. Territoriality complements this perspective by shifting the focus from the distance *between* agents to the spaces people **claim, control, use, and defend**.
+A bedroom, a workplace, a classroom, a garden, or even a temporary gathering each comes with expectations about how that space should be used and experienced. We develop a sense of who belongs there, who may enter, what kinds of actions are appropriate, how long someone may stay, and what qualities of the space should be preserved.
 
-My research asks how these territorial dynamics extend to robots.
+These expectations are not necessarily explicit. Much like proxemic behavior, we often navigate them intuitively as part of everyday life.
 
-## NOX: ENtry, Occupancy, EXit
+What happens when robots begin to enter these spaces?
 
-To make territoriality usable for HRI research and design, we developed **NOX (ENtry, Occupancy, EXit)**, a stage-based model of human–robot territorial dynamics {% cite bretin_nox_2026 %}.
+A robot may be physically capable of crossing a doorway, moving through a room, manipulating an object, or leaving whenever it chooses. But technical possibility does not automatically make these behaviors socially appropriate.
 
-NOX describes territorial interaction through three stages:
+This is where I became interested in **Human–Robot Territoriality**: how people's relationships with spaces shape what they expect from robots entering, occupying, and leaving them.
 
-- **Entry** — how a robot gains access to a space;
-- **Occupancy** — what it does and how its presence changes the space;
-- **Exit** — how and under what conditions it leaves.
+Rather than treating space as an empty environment through which a robot simply navigates, this perspective treats it as a socially meaningful setting—one already associated with people, activities, norms, expectations, and particular ways of being used.
 
-In a vignette study with 290 participants, we found that mismatches between people's expectations and robot behavior were associated with more negative emotions, stronger defensive intentions, and lower perceived appropriateness {% cite bretin_nox_2026 %}.
+## A framework for thinking about territories
+
+Before asking how a robot should behave in a territory, we need a way to describe what makes that space meaningful to the people connected to it.
+
+Our framework {% cite bretin_nox_2026 %} brings together several concepts from territoriality research and adapts them to Human–Robot Interaction:
+
+| Concept | A useful question | What it captures |
+| --- | --- | --- |
+| **Stakeholder** | *Who is meaningfully affected by what happens here?* | An agent with a meaningful connection to the territory—not necessarily the robot's user, or even someone physically present at the time. |
+| **Territorial connection** | *Why does this space matter to them?* | Practical, emotional, social, or legal ties to a space, such as living, working, owning, identifying with, or relying on it. |
+| **Territorial model** | *How do they expect this space to work?* | Expectations about who may access it, what may happen there, how it should be used, and what qualities it should maintain. |
+| **Territorial status** | *How can they actually experience and act within the space?* | Their current position in the territorial dynamic, including authority, freedom of access and action, self-expression, and the experienced qualities of the environment. |
+| **Territorial congruence** | *Do expectations and experience align?* | The degree to which what happens in the space corresponds to what stakeholders expect. |
+| **Territorial behavior** | *How are these relationships expressed?* | Ways of expressing, negotiating, maintaining, or responding to territorial relationships—from personalization and rule-setting to reactions when expectations are not met. |
+
+Together, these concepts describe the territorial setting in which an interaction takes place.
+
+**NOX adds the temporal dimension:** what happens when a robot approaches a territory, enters it, acts or remains within it, and eventually leaves?
+
+## NOX: Entry, Occupancy, Exit
+
+To make these dynamics actionable for HRI research and design, we developed **NOX (ENtry, Occupancy, EXit)**, a stage-based model of how robots engage with human territories over time {% cite bretin_nox_2026 %}.
+
+The model follows three broad phases:
+
+- **Entry** — how a robot approaches and gains access to a territory;
+- **Occupancy** — what it does, where it moves, and how its presence affects the space;
+- **Exit** — when and how it leaves, and what remains after it has gone.
+
+Across these phases, NOX identifies places where robot behavior and stakeholder expectations can diverge. We call these **friction points**.
+
+Importantly, NOX does not prescribe one universally correct behavior—for example, that a robot must always ask for permission before entering. What matters is whether the behavior enacted by the robot is congruent with what relevant stakeholders expect in that particular territorial context.
+
+<div style="width: 95%; margin: 2rem auto;">
+
+{% include figure.liquid
+  path="assets/img/projects/territoriality/modelTer.png"
+  title="NOX model of Human–Robot Territorial Dynamics"
+  class="img-fluid rounded z-depth-1"
+%}
+
+</div>
+
+<p class="caption">
+  The NOX framework connects robot operations across Entry, Occupancy, and Exit
+  with the territorial expectations through which stakeholders experience a space.
+</p>
+
+At each phase, these potential mismatches can concern three broad dimensions:
+
+- **Freedom** — the degree of access, exit, or action the robot is expected to have;
+- **Action** — whether what the robot physically does, including where and how it acts, fits the expectations associated with the space;
+- **Status** — how the robot's behavior or presence changes stakeholders' actual experience of the territory, such as their authority, freedom of action, self-expression, or the qualities of the space.
+
+Importantly, NOX does not prescribe one universally correct behavior. A robot does not, for example, always need to ask permission before entering. What matters is whether its behavior is congruent with what relevant stakeholders expect in that particular territorial context.
+
+We evaluated this idea in a vignette study with **290 participants**, using a domestic primary territory as a first test case {% cite bretin_nox_2026 %}. Across Entry, Occupancy, and Exit, mismatches between expected and observed robot behavior were associated with more negative emotional responses, stronger defensive intentions, and lower perceived appropriateness.
+
+The key point is therefore not that one specific behavior is always appropriate, but that **territorial expectations matter**, and that robot behavior can become problematic when it conflicts with them.
+
 
 ## Beyond physical boundaries
 
@@ -60,6 +117,12 @@ Understanding territorial expectations can help us move from asking only **"Can 
 
 ## Where is this going?
 
-This work is developing along two complementary directions. Empirically, I aim to study territoriality across a wider range of robots, environments, stakeholders, and cultures, using these observations to iteratively refine the theory and the NOX model.
+A first goal is to strengthen the empirical foundations of Human–Robot Territoriality. Territorial expectations are often implicit, context-dependent, and shaped over time, so I am interested in developing better ways to observe and measure them in real-world and longitudinal interactions.
 
-In parallel, I want to bridge theory and autonomy by translating territorial principles into **behavioral control algorithms** that enable robots to recognize, negotiate, and adapt to human territorial expectations in real time.
+I also want to turn the framework into practical tools for design. One direction is to develop **territorial audits** that help researchers and designers identify relevant stakeholders, expectations, and potential friction points before deployment—and diagnose breakdowns once a robot is in use.
+
+In the longer term, the goal is to move from analyzing territorial interactions after the fact toward **territorially aware robots**. This means identifying the cues that could allow a robot to infer what kind of space it is entering, whose expectations matter, when those expectations are changing, and how it should adapt, negotiate, or recover when something goes wrong.
+
+Ultimately, I see territoriality not only as a way to explain human–robot spatial interaction, but as a basis for designing robots that can participate more appropriately in socially meaningful spaces.
+
+Territoriality complements my work on <a href="/_projects/1_project.md">Human–Drone Proxemics</a> by adding another facet of the social use of space. More broadly, it also connects to my work on Ecological Robotics, which explores how robots can be designed around the environments—or ecosystems—they are meant to become part of.
