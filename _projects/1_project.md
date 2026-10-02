@@ -8,6 +8,17 @@ category: work
 related_publications: true
 ---
 
+
+{% include figure.liquid
+  path="assets/img/projects/proxemics.png"
+  title="Human–Drone Proxemics"
+  class="img-fluid rounded z-depth-1"
+%}
+
+<p class="caption">
+  Four mechanisms shaping human–drone proxemic behavior.
+</p>
+
 ## In one sentence
 
 I study why people move closer to or farther away from drones, and the psychological mechanisms that shape these spatial relationships.
@@ -25,17 +36,6 @@ This led me to ask: **what shapes the distances people maintain around drones?**
 This question formed the core of my PhD research on **Human–Drone Proxemics**. Rather than asking only *how far* people want to stay from drones, I became interested in **what drives these spatial adjustments in the first place**.
 
 This motivated a series of studies examining different mechanisms that can shape people's spatial relationships with drones: communicating social meaning, responding to potential threats, pursuing a task, and regulating stimulation. Together, these studies progressively revealed a more complex picture of how spatial behavior emerges {% cite bretin_beyond_2025%}.
-
-{% include figure.liquid
-  path="assets/img/projects/proxemics.png"
-  title="Human–Drone Proxemics"
-  class="img-fluid rounded z-depth-1"
-%}
-
-<p class="caption">
-  Four mechanisms shaping human–drone proxemic behavior.
-</p>
-
 
 ## What shapes our distance from drones?
 
