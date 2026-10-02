@@ -153,7 +153,7 @@ My PhD brought these mechanisms and their interactions together into a holistic 
 <div style="width: 80%; margin: 0 auto;">
 
   {% include figure.liquid
-    path="assets/img/projects/proxmodel.svg"
+    path="assets/img/projects/proxmodel.png"
     title="Holistic model of Human–Drone Proxemics"
     class="img-fluid rounded z-depth-1"
   %}
