@@ -3,25 +3,20 @@ layout: page
 title: "Human–Drone Proxemics"
 description: Understanding why people move closer to or farther away from drones.
 img: assets/img/projects/proxemics.png
-importance: 2
+importance: 1
 category: work
 related_publications: true
 ---
 
-{% if page.img %}
-<figure class="mb-4">
-  <img
-    src="{{ assets/img/projects/proxemics.jpg }}"
-    alt="{{ page.title }}"
-    class="img-fluid rounded z-depth-1"
-  >
-  {% if page.img_caption %}
-  <figcaption class="text-muted small mt-2">
-    {{ page.img_caption }}
-  </figcaption>
-  {% endif %}
-</figure>
-{% endif %}
+{% include figure.liquid
+  path="assets/img/projects/proxemics.png"
+  title="Human–Drone Proxemics"
+  class="img-fluid rounded z-depth-1"
+%}
+
+<p class="caption">
+  Four mechanisms shaping human–drone proxemic behavior.
+</p>
 
 ## In one sentence
 
@@ -29,59 +24,136 @@ I study why people move closer to or farther away from drones, and the psycholog
 
 ## The idea
 
-When we share space with others, the distances we maintain are rarely arbitrary. We move closer, step away, change our path, or adjust our surroundings depending on what we are trying to do, how safe we feel, what we perceive, and how we interpret the situation.
+When we share space with others, we continuously and often intuitively regulate our spatial relationship with them. We move closer, step away, change our path, or maintain a certain distance depending on what is happening around us.
 
-What happens when the other entity is a drone?
+These adjustments may look simple, but they can serve very different purposes. Distance can help us communicate, protect ourselves, accomplish a task, or regulate how stimulating a situation feels.
 
-This question formed the core of my PhD research on **Human–Drone Proxemics**. Rather than asking only *how far* people want to stay from drones, I became interested in **why these distances emerge in the first place**.
+As autonomous robots begin to enter everyday human environments, they become part of these spatial dynamics. Drones are a particularly interesting case: they move in three dimensions, produce strong sensory cues, and do not necessarily fit the assumptions we make about either humans or ground-based robots.
 
-Early work showed that established assumptions from human–human or human–robot proxemics do not necessarily transfer directly to flying robots. Drones are perceived through a combination of their mechanical nature, sensory characteristics, behavior, and the context in which the interaction takes place.
+This led me to ask: **what shapes the distances people maintain around drones?**
 
-{% cite bretin_co-existing_2024%}
+This question formed the core of my PhD research on **Human–Drone Proxemics**. Rather than asking only *how far* people want to stay from drones, I became interested in **what drives these spatial adjustments in the first place**.
+
+This motivated a series of studies examining different mechanisms that can shape people's spatial relationships with drones: communicating social meaning, responding to potential threats, pursuing a task, and regulating stimulation. Together, these studies progressively revealed a more complex picture of how spatial behavior emerges {% cite bretin_beyond_2025%}.
 
 ## What shapes our distance from drones?
 
 Across a series of empirical studies, I investigated four complementary mechanisms that can shape proxemic behavior.
 
-### Communication
 
-Distance can communicate something about a relationship or interaction. I explored whether drones can participate in these social spatial dynamics, including how cues such as gaze and facial expressions influence people's interpretations and behavior.
+<p>
+  Across a series of empirical studies, I investigated four complementary mechanisms
+  that can shape proxemic behavior.
+</p>
 
-{% cite bretin_role_2025%}
+<div class="row row-cols-1 row-cols-md-2 g-4">
 
-### Defense
+  <div class="col mb-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4 class="card-title">Communication</h4>
+        <p class="card-text">
+          Distance can communicate something about a relationship or interaction.
+          I explored whether drones can participate in these social spatial dynamics,
+          including how cues such as gaze and facial expressions influence people's
+          interpretations and behavior.
+        </p>
+        <p class="card-text">
+          {% cite bretin_role_2025 %}
+        </p>
+      </div>
+    </div>
+  </div>
 
-Sometimes distance is less about communication than about protection.
+  <div class="col mb-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4 class="card-title">Defense</h4>
+        <p class="card-text">
+          Sometimes distance is less about communication than about protection.
+          In experiments conducted in both virtual and real environments, I studied
+          how proximity and speed influence discomfort, stress, perceived threat,
+          and people's tendency to move away.
+        </p>
+        <p class="card-text">
+          {% cite bretin_i_2023 %}
+        </p>
+      </div>
+    </div>
+  </div>
 
-A drone approaching a person brings moving propellers, noise, uncertainty, and the possibility of collision. In experiments conducted in both virtual and real environments, I studied how proximity and speed influence discomfort, stress, perceived threat, and people's tendency to move away.
+  <div class="col mb-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4 class="card-title">Goals</h4>
+        <p class="card-text">
+          People do not always prioritize comfort or safety above everything else.
+          I investigated how task demands and perceived danger compete, and how
+          people adapt their behavior when approaching the drone helps them achieve
+          another goal.
+        </p>
+        <p class="card-text">
+          {% cite bretin_safety_2025 %}
+        </p>
+      </div>
+    </div>
+  </div>
 
-{% cite bretin_i_2023%}
+  <div class="col mb-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4 class="card-title">Arousal regulation</h4>
+        <p class="card-text">
+          Distance can also help regulate how much stimulation we receive from our
+          environment. My work explored whether people use spatial distance as one
+          way of managing this stimulation and maintaining a comfortable level of arousal.
+        </p>
+        <p class="card-text">
+          Paper written, submission forthcoming.
+        </p>
+      </div>
+    </div>
+  </div>
 
-### Goals
+</div>
 
-People do not always prioritize comfort or safety above everything else.
+### From perception to spatial behavior
 
-When someone is focused on completing a task, maintaining an ideal distance from a drone may become secondary. I investigated how task demands and perceived danger compete, and how people adapt their behavior when approaching the drone helps them achieve another goal.
+An important part of this model is that proxemic behavior does not begin with distance itself. It begins with what people can perceive.
 
-{% cite bretin_safety_2025%}
+A drone produces visual, auditory, and other sensory cues that are filtered through the environment, the situation, and the individual's own characteristics. Only some of this information becomes sufficiently relevant to influence higher-level interpretation and behavior.
 
-### Arousal regulation
+{% include figure.liquid
+  path="assets/img/projects/cog.png"
+  title="Sensory processing in Human–Drone Proxemics"
+  class="img-fluid rounded z-depth-1"
+%}
 
-Distance can also help us regulate how much stimulation we receive from our environment.
-
-Drone sound, movement, workload, and other sensory demands can accumulate. My work explored whether people use spatial distance as one way of managing this stimulation and maintaining a comfortable level of arousal.
+<p class="caption">
+  A closer look at the sensory-processing component of the model, showing how drone outputs are filtered before contributing to higher-level interpretation.
+</p>
 
 ## Bringing these mechanisms together
 
-These mechanisms do not operate independently.
+Studying these mechanisms separately eventually revealed a limitation: the same spatial behavior can emerge for very different reasons, and several motivations can be active at the same time.
 
-A person may simultaneously want to approach a drone to complete a task, move away because it feels threatening, interpret its behavior socially, and reduce exposure to its noise.
+People first perceive and interpret what is happening around them. Different motivations may then emerge—avoiding a threat, completing a task, maintaining social appropriateness, or regulating stimulation.
 
-When these motivations conflict, people can adapt in different ways: by changing their own movement, modifying their environment, or changing how much attention they give to the drone.
+If changing distance helps resolve one of these needs, space becomes part of the response. If not, people may adapt in other ways: changing speed, redirecting attention, modifying their environment, or simply tolerating the situation.
 
-My PhD brought these observations together into a **model of Human–Drone Proxemics** designed to help researchers reason about the mechanisms underlying observed spatial behavior rather than treating distance as an outcome in isolation.
+This led me to reverse the usual way of thinking about proxemics. Rather than starting from an observed distance and asking which function explains it, I start from the underlying situation: **what is the person trying to regulate, and when does space become the strategy they use?**
 
-The aim is not to prescribe a single "correct distance" between a person and a drone, but to provide tools for understanding **why a particular spatial relationship emerges in a particular situation**.
+My PhD brought these mechanisms and their interactions together into a holistic model of **Human–Drone Proxemics**.
+
+{% include figure.liquid
+  path="assets/img/projects/proxmodel.png"
+  title="Holistic model of Human–Drone Proxemics"
+  class="img-fluid rounded z-depth-1"
+%}
+
+<p class="caption">
+  A holistic model of Human–Drone Proxemics, from sensory processing and situational assessment to competing proxemic motivations and behavioral responses.
+</p>
 
 ## Why does this matter?
 
@@ -93,8 +165,10 @@ Understanding the mechanisms behind proxemic behavior can therefore help researc
 
 ## Where is this going?
 
-This work provided the foundation for my broader interest in the **social and spatial mechanisms that shape how robots become embedded in human environments**.
+A first goal is to push a more contextual and multilayered view of proxemics: one in which spatial behavior is not reduced to a single function, but emerges from several interacting motivations whose relevance changes with the situation. 
+ 
+I want to keep developing and testing this perspective, but also make it more actionable for robots themselves. A key challenge is to identify the cues and determinants that could allow a robot to quickly make sense of a person's proxemic behavior: what might be driving it, what role the robot is playing in the current situation.
 
-One direction is to continue refining our understanding of proxemics through more diverse contexts, robot embodiments, populations, and longer-term interactions. The model developed during my PhD was intentionally conceived as a foundation that can evolve as new empirical evidence accumulates.
+Ultimately, this could help move from models that explain proxemic behavior after the fact toward robots that can interpret spatial behavior as it unfolds and adapt their own behavior accordingly.
 
 At the same time, this work led me to look beyond interpersonal distance itself. People do not only regulate their distance from robots; they also attach meaning, expectations, and forms of control to the **spaces robots occupy**. This transition from distance to socially meaningful space now motivates my work on **Human–Robot Territoriality**.

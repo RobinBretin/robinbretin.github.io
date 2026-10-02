@@ -2,27 +2,21 @@
 layout: page
 title: "Human–Robot Territoriality"
 description: Understanding robots in human territories.
-img: assets/img/projects/territoriality.jpg
-img_caption: "Conceptual illustration of how a robot enters, occupies, and leaves a human territory."
-importance: 1
+img: assets/img/projects/territoriality.png
+importance: 2
 category: work
 related_publications: true
 ---
 
-{% if page.img %}
-<figure class="mb-4">
-  <img
-    src="{{ assets/img/projects/territoriality.jpg }}"
-    alt="{{ page.title }}"
-    class="img-fluid rounded z-depth-1"
-  >
-  {% if page.img_caption %}
-  <figcaption class="text-muted small mt-2">
-    {{ page.img_caption }}
-  </figcaption>
-  {% endif %}
-</figure>
-{% endif %}
+{% include figure.liquid
+  path="assets/img/projects/territoriality.png"
+  title="Human–Drone Proxemics"
+  class="img-fluid rounded z-depth-1"
+%}
+
+<p class="caption">
+  Conceptual illustration of how a robot enters, occupies, and leaves a human territory.
+</p>
 
 ## In one sentence
 
