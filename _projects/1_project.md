@@ -19,9 +19,53 @@ related_publications: true
   Four mechanisms shaping human–drone proxemic behavior.
 </p>
 
-## In one sentence
+<div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
 
-I study why people move closer to or farther away from drones, and the psychological mechanisms that shape these spatial relationships.
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4 class="card-title">Research focus</h4>
+        <p class="card-text">
+          Understanding the mechanisms that lead people to move closer to or farther away from drones, and when spatial adjustment becomes the strategy they use.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4 class="card-title">Current stage</h4>
+        <p class="card-text">
+          A holistic model has emerged from converging empirical evidence across several proxemic mechanisms. The next step is to test the model as an integrated whole and examine how well it generalizes across situations and robotic systems.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4 class="card-title">Work so far</h4>
+        <p class="card-text">
+          A PhD thesis and several empirical studies investigating communicative, protective, goal-oriented, and arousal-regulation mechanisms, brought together into a holistic model of Human–Drone Proxemics.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4 class="card-title">Collaboration opportunities</h4>
+        <p class="card-text">
+          I am interested in collaborating with researchers working on proxemics, social navigation, aerial robots, or multimodal sensing to test the holistic model across new systems and explore how robots could infer what drives people's spatial behavior.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
 
 ## The idea
 
@@ -180,4 +224,4 @@ I want to keep developing and testing this perspective, but also make it more ac
 
 Ultimately, this could help move from models that explain proxemic behavior after the fact toward robots that can interpret spatial behavior as it unfolds and adapt their own behavior accordingly.
 
-At the same time, this work led me to look beyond interpersonal distance itself. People do not only regulate their distance from robots; they also attach meaning, expectations, and forms of control to the **spaces robots occupy**. This transition from distance to socially meaningful space now motivates my work on **Human–Robot Territoriality**.
+At the same time, this work led me to look beyond interpersonal distance itself. People do not only regulate their distance from robots; they also attach meaning, expectations, and forms of control to the **spaces robots occupy**. This transition from distance to socially meaningful space now motivates my work on <a href="/_projects/2_nox.md">Human–Robot Territoriality</a>.

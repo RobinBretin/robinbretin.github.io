@@ -10,7 +10,7 @@ related_publications: true
 
 {% include figure.liquid
   path="assets/img/projects/territoriality.png"
-  title="Human–Drone Proxemics"
+  title="Human–Robot Territoriality"
   class="img-fluid rounded z-depth-1"
 %}
 
@@ -18,9 +18,53 @@ related_publications: true
   Conceptual illustration of how a robot enters, occupies, and leaves a human territory.
 </p>
 
-## In one sentence
+<div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
 
-I study how robots enter, occupy, and leave socially meaningful spaces, and what happens when their behavior conflicts with the territorial expectations attached to those spaces.
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4 class="card-title">Research focus</h4>
+        <p class="card-text">
+          Understanding how robots enter, occupy, and leave socially meaningful spaces, and how their behavior interacts with the expectations attached to those spaces.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4 class="card-title">Current stage</h4>
+        <p class="card-text">
+          The initial framework and NOX model have received empirical support in a domestic primary territory. The research is now moving toward testing and refining these ideas across more complex territories, stakeholders, and robot forms, while developing ways to operationalize them in design and robotic systems.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4 class="card-title">Work so far</h4>
+        <p class="card-text">
+          A conceptual framework and vocabulary for Human–Robot Territoriality, the NOX Entry–Occupancy–Exit model, and an empirical vignette study with 290 participants.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4 class="card-title">Collaboration opportunities</h4>
+        <p class="card-text">
+          I am keen to collaborate with researchers running real-world robot deployments, studying social navigation or territorial behavior, or developing robot autonomy, to test territorial dynamics in new settings and translate them into design and robotic behavior.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
 
 ## The idea
 
