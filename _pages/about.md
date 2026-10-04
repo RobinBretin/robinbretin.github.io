@@ -21,6 +21,66 @@ I previously worked as a postdoctoral researcher at TU Wien, in the Research Uni
 
  **What do robots become once they enter the human world?**  I study how robots become embedded in human spaces, and the social and spatial mechanisms that shape what happens when they do. This includes how people adjust their distance, how robots occupy and move through human territories, and how these interactions reshape the environments we share. Other branches of this research tree explore perceived social judgment when working with cobots and ecological perspectives on robot design.
 
+<div class="row row-cols-1 row-cols-md-2 g-4 mt-2">
+
+  <div class="col mb-4">
+    <div class="card h-100 hoverable">
+      <div class="card-body">
+        <h4 class="card-title">
+          <a href="{{ '/projects/1_project/' | relative_url }}">Human–Drone Proxemics</a>
+        </h4>
+        <p class="card-text">
+          How do people regulate distance around drones, and what drives these spatial adjustments?
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col mb-4">
+    <div class="card h-100 hoverable">
+      <div class="card-body">
+        <h4 class="card-title">
+          <a href="{{ '/projects/2_nox/' | relative_url }}">Human–Robot Territoriality</a>
+        </h4>
+        <p class="card-text">
+          How do robots enter, occupy, and leave socially meaningful human spaces?
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col mb-4">
+    <div class="card h-100 hoverable">
+      <div class="card-body">
+        <h4 class="card-title">
+          <a href="{{ '/projects/3_ecological/' | relative_url }}">Ecological Robotics</a>
+        </h4>
+        <p class="card-text">
+          How can robots be designed for the environments and ecosystems they are meant to become part of?
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col mb-4">
+    <div class="card h-100 hoverable">
+      <div class="card-body">
+        <h4 class="card-title">
+          <a href="{{ '/projects/4_VR/' | relative_url }}">VR as a Research Method</a>
+        </h4>
+        <p class="card-text">
+          How can virtual and hybrid environments be used rigorously to study HRI phenomena?
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<p class="mt-2">
+  <a href="{{ '/projects/' | relative_url }}">See all research directions →</a>
+</p>
+
 <p>My PhD at the University of Glasgow examined human–drone proxemics and the use of virtual reality to study it. I have also collaborated on child safety in social VR with <a href="https://www.cristinafiani.com/">Cristina Fiani</a>, authentication techniques with <a href="http://fmathis.com/">Florian Mathis</a>, and expressive social robots with <a href="https://shaun-macdonald-hci.owlstown.net/">Shaun McDonald</a>.</p>
 
 <p>

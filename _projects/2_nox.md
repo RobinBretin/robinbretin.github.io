@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Human–Robot Territoriality"
-description: Understanding robots in human territories.
+description: How do robots enter, occupy, and leave socially meaningful spaces?
 img: assets/img/projects/territoriality.png
 importance: 2
 category: work
@@ -122,7 +122,6 @@ The model follows three broad phases:
 
 Across these phases, NOX identifies places where robot behavior and stakeholder expectations can diverge. We call these **friction points**.
 
-Importantly, NOX does not prescribe one universally correct behavior—for example, that a robot must always ask for permission before entering. What matters is whether the behavior enacted by the robot is congruent with what relevant stakeholders expect in that particular territorial context.
 
 <div style="width: 95%; margin: 2rem auto;">
 
@@ -178,4 +177,4 @@ In the longer term, the goal is to move from analyzing territorial interactions 
 
 Ultimately, I see territoriality not only as a way to explain human–robot spatial interaction, but as a basis for designing robots that can participate more appropriately in socially meaningful spaces.
 
-Territoriality complements my work on <a href="/_projects/1_project.md">Human–Drone Proxemics</a> by adding another facet of the social use of space. More broadly, it also connects to my work on Ecological Robotics, which explores how robots can be designed around the environments—or ecosystems—they are meant to become part of.
+Territoriality complements my work on <a href="/_projects/1_project.md">Human–Drone Proxemics</a> by adding another facet of the social use of space. More broadly, it also connects to my work on <a href="/_projects/3_ecological.md">Ecological Robotics</a>, which explores how robots can be designed around the environments—or ecosystems—they are meant to become part of.

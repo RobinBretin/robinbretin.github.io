@@ -176,7 +176,7 @@ From this perspective, the continuity of a robot may reside less in a particular
 
 ## Where is this going?
 
-At this stage, Ecological Robotics is a **research perspective rather than a fixed framework**. Our initial workshop paper introduced the lens and some of its implications; the next challenge is to make it more systematic and actionable for robot design {% cite YOUR_ECOLOGICAL_ROBOTICS_KEY %}.
+At this stage, Ecological Robotics is a **research perspective rather than a fixed framework**. Our initial workshop paper introduced the lens and some of its implications; the next challenge is to make it more systematic and actionable for robot design.
 
 One direction I am particularly interested in is developing an **ecology-centered approach to robot design**.
 
