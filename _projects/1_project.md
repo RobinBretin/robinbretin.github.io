@@ -19,47 +19,56 @@ related_publications: true
   Four mechanisms shaping human–drone proxemic behavior.
 </p>
 
-<div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
+## Overview
+<div class="row row-cols-1 row-cols-md-2 g-4">
 
-  <div class="col">
+  <div class="col mb-4">
     <div class="card h-100">
       <div class="card-body">
         <h4 class="card-title">Research focus</h4>
         <p class="card-text">
-          Understanding the mechanisms that lead people to move closer to or farther away from drones, and when spatial adjustment becomes the strategy they use.
+          Understanding the mechanisms that lead people to move closer to or farther away
+          from drones, and when spatial adjustment becomes the strategy they use.
         </p>
       </div>
     </div>
   </div>
 
-  <div class="col">
+  <div class="col mb-4">
     <div class="card h-100">
       <div class="card-body">
         <h4 class="card-title">Current stage</h4>
         <p class="card-text">
-          A holistic model has emerged from converging empirical evidence across several proxemic mechanisms. The next step is to test the model as an integrated whole and examine how well it generalizes across situations and robotic systems.
+          A holistic model has emerged from converging empirical evidence across several
+          proxemic mechanisms. The next step is to test the model as an integrated whole
+          and examine how well it generalizes across situations and robotic systems.
         </p>
       </div>
     </div>
   </div>
 
-  <div class="col">
+  <div class="col mb-4">
     <div class="card h-100">
       <div class="card-body">
         <h4 class="card-title">Work so far</h4>
         <p class="card-text">
-          A PhD thesis and several empirical studies investigating communicative, protective, goal-oriented, and arousal-regulation mechanisms, brought together into a holistic model of Human–Drone Proxemics.
+          A PhD thesis and several empirical studies investigating communicative,
+          protective, goal-oriented, and arousal-regulation mechanisms, brought together
+          into a holistic model of Human–Drone Proxemics.
         </p>
       </div>
     </div>
   </div>
 
-  <div class="col">
+  <div class="col mb-4">
     <div class="card h-100">
       <div class="card-body">
         <h4 class="card-title">Collaboration opportunities</h4>
         <p class="card-text">
-          I am interested in collaborating with researchers working on proxemics, social navigation, aerial robots, or multimodal sensing to test the holistic model across new systems and explore how robots could infer what drives people's spatial behavior.
+          I am interested in collaborating with researchers working on proxemics,
+          social navigation, aerial robots, or multimodal sensing to test the holistic
+          model across new systems and explore how robots could infer what drives
+          people's spatial behavior.
         </p>
       </div>
     </div>
@@ -82,9 +91,6 @@ This question formed the core of my PhD research on **Human–Drone Proxemics**.
 This motivated a series of studies examining different mechanisms that can shape people's spatial relationships with drones: communicating social meaning, responding to potential threats, pursuing a task, and regulating stimulation. Together, these studies progressively revealed a more complex picture of how spatial behavior emerges {% cite bretin_beyond_2025%}.
 
 ## What shapes our distance from drones?
-
-Across a series of empirical studies, I investigated four complementary mechanisms that can shape proxemic behavior.
-
 
 <p>
   Across a series of empirical studies, I investigated four complementary mechanisms

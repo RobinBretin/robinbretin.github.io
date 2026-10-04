@@ -8,7 +8,6 @@ category: work
 related_publications: true
 ---
 
-
 {% include figure.liquid
   path="assets/img/projects/ecological.png"
   title="Ecological Robotics"
@@ -19,50 +18,60 @@ related_publications: true
   Conceptual illustration of an ecological perspective on robot design, where behavior, interaction, embodiment, spatial presence, materials, and lifecycle are considered in relation to the ecosystem the robot is meant to become part of.
 </p>
 
+## Overview
+
 What if we designed robots by first asking **what they should become in the world**, rather than what technology we can build?
 
 What if designing and introducing a robot into an environment required the same level of consideration as introducing a new species into a living ecosystem?
-<div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
+<div class="row row-cols-1 row-cols-md-2 g-4">
 
-  <div class="col">
+  <div class="col mb-4">
     <div class="card h-100">
       <div class="card-body">
         <h4 class="card-title">Research focus</h4>
         <p class="card-text">
-          Exploring how an ecological perspective can reshape the way robots are designed for the environments and ecosystems they are meant to become part of.
+          Exploring how an ecological perspective can reshape the way robots are designed
+          for the environments and ecosystems they are meant to become part of.
         </p>
       </div>
     </div>
   </div>
 
-  <div class="col">
+  <div class="col mb-4">
     <div class="card h-100">
       <div class="card-body">
         <h4 class="card-title">Current stage</h4>
         <p class="card-text">
-          The conceptual perspective has been articulated, but it has not yet been developed into a systematic design methodology. The next step is to operationalize it into methods and tools for ecology-centered robot design and evaluate their usefulness in practice.
+          The conceptual perspective has been articulated, but it has not yet been developed
+          into a systematic design methodology. The next step is to operationalize it into
+          methods and tools for ecology-centered robot design and evaluate their usefulness
+          in practice.
         </p>
       </div>
     </div>
   </div>
 
-  <div class="col">
+  <div class="col mb-4">
     <div class="card h-100">
       <div class="card-body">
         <h4 class="card-title">Work so far</h4>
         <p class="card-text">
-          An initial conceptual workshop paper introducing Ecological Robotics through the ideas of ecological role, niche, ecological continuity, and their implications for robot design.
+          An initial conceptual workshop paper introducing Ecological Robotics through
+          the ideas of ecological role, niche, ecological continuity, and their implications
+          for robot design.
         </p>
       </div>
     </div>
   </div>
 
-  <div class="col">
+  <div class="col mb-4">
     <div class="card h-100">
       <div class="card-body">
         <h4 class="card-title">Collaboration opportunities</h4>
         <p class="card-text">
-          I am keen to collaborate with researchers and designers in robotics, HRI, ecology, and design who can bring complementary methods or domain expertise to co-develop and evaluate ecology-centered approaches to robot design.
+          I am keen to collaborate with researchers and designers in robotics, HRI,
+          ecology, and design who can bring complementary methods or domain expertise
+          to co-develop and evaluate ecology-centered approaches to robot design.
         </p>
       </div>
     </div>
